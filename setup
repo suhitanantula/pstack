@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# pstack setup — register skills with Claude Code
+# Usage: ./setup
+set -e
+
+PSTACK_DIR="$(cd "$(dirname "$0")" && pwd -P)"
+SKILLS_DIR="$HOME/.claude/skills"
+
+SKILLS=(
+  pstack
+  pstack-perceive
+  pstack-portfolio
+  pstack-decide
+  pstack-prune
+  pstack-perform
+  pstack-artisan
+  pstack-progress
+  pstack-observer
+  pstack-upgrade
+)
+
+mkdir -p "$SKILLS_DIR"
+
+echo "Installing pstack skills..."
+
+for skill in "${SKILLS[@]}"; do
+  target="$SKILLS_DIR/$skill"
+  # Remove old symlink or directory
+  [ -L "$target" ] && rm -f "$target"
+  [ -d "$target" ] && rm -rf "$target"
+
+  if [ "$skill" = "pstack" ]; then
+    # Root skill — symlink the whole repo dir
+    ln -snf "$PSTACK_DIR" "$target"
+  else
+    ln -snf "$PSTACK_DIR/$skill" "$target"
+  fi
+  echo "  linked: $skill"
+done
+
+# Make bin scripts executable
+chmod +x "$PSTACK_DIR/bin/"* 2>/dev/null || true
+
+# Create state dir
+mkdir -p "$HOME/.pstack"
+
+echo ""
+echo "pstack ready. Available skills:"
+echo "  /pstack              — 5Ps overview and sprint runner"
+echo "  /pstack-perceive     — Research Agent"
+echo "  /pstack-portfolio    — Options Agent (build 3 prototypes)"
+echo "  /pstack-decide       — Strategy Agent"
+echo "  /pstack-prune        — Scope discipline"
+echo "  /pstack-perform      — Build Agent"
+echo "  /pstack-artisan      — Design/Quality Agent"
+echo "  /pstack-progress     — Learn Agent"
+echo "  /pstack-observer     — Meta Agent"
+echo "  /pstack-upgrade      — Self-updater"
