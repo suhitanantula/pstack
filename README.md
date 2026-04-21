@@ -37,6 +37,8 @@ See [docs/CROSS-AGENT-INSTALL.md](docs/CROSS-AGENT-INSTALL.md) for why pstack is
 
 See [docs/PSTACK-OMX-OPERATING-MODEL.md](docs/PSTACK-OMX-OPERATING-MODEL.md) for the recommended split between `pstack` as the strategic layer and `OMX` as the execution layer.
 
+Artifact templates for the `Strategic Brief`, `Execution Plan`, and `Execution Evidence Pack` live under [docs/templates](docs/templates).
+
 ## License
 
 MIT

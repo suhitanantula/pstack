@@ -243,6 +243,12 @@ Recommended files:
 - `.omx/state/...` and verification logs
 - `docs/strategy/execution-evidence-*.md` or equivalent summary artifact
 
+Starter templates live in:
+
+- `docs/templates/strategic-brief-template.md`
+- `docs/templates/execution-plan-template.md`
+- `docs/templates/execution-evidence-pack-template.md`
+
 Avoid building a giant meta-framework before the handoffs are working in plain markdown.
 
 ## What This Model Enables
