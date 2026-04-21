@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.1
+
+- **Agent-neutral memory paths**: replaced hardcoded `~/.claude/pstack-memory/` with `~/.pstack/memory/` in `SKILL.md`, `pstack-observer/SKILL.md`, and `pstack-progress/SKILL.md`. Works correctly across Claude Code, Codex CLI, and any future agent. Existing Claude users can migrate memory with `mv ~/.claude/pstack-memory ~/.pstack/memory`.
+
 ## v1.1.0
 
 - **Codex CLI support**: pstack now installs as a Codex plugin via `plugins/pstack/.codex-plugin/plugin.json`. Skill markdown duplicated into `plugins/pstack/skills/` for Codex plugin discovery.

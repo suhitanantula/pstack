@@ -44,8 +44,8 @@ This dual-track awareness is Observer's primary function. Most agents optimize f
 ### Cross-Sprint Pattern Detection
 
 Before producing the Observer Report, read:
-- `~/.claude/pstack-memory/sprint-log.md` — all past sprint learnings
-- `~/.claude/pstack-memory/acp-levels.md` — current ACP levels (if exists)
+- `~/.pstack/memory/sprint-log.md` — all past sprint learnings
+- `~/.pstack/memory/acp-levels.md` — current ACP levels (if exists)
 
 Look for:
 - **Recurring lessons** — same lesson appearing 2+ times = unlearned pattern

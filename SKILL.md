@@ -42,7 +42,7 @@ Each P develops through use. Track your practice maturity:
 | 4 | Growth | Your application of the P has visibly improved |
 | 5 | Emergence | The P produces insights you didn't expect |
 
-**Your current levels** are tracked in `~/.claude/pstack-memory/acp-levels.md`.
+**Your current levels** are tracked in `~/.pstack/memory/acp-levels.md` (agent-neutral path — works across Claude Code, Codex, and any other CLI).
 Update after each sprint via `/pstack-progress`.
 
 The Observer (`/pstack-observer`) monitors ACP levels and flags:

@@ -136,7 +136,7 @@ The Learn Agent doesn't need to be a different agent than the Build Agent. Many 
 
 After completing the Progress report, append key learnings to the persistent sprint log:
 
-**File:** `~/.claude/pstack-memory/sprint-log.md`
+**File:** `~/.pstack/memory/sprint-log.md` (agent-neutral location; works across Claude Code, Codex, etc.)
 
 Create this file if it doesn't exist. Append:
 ```
