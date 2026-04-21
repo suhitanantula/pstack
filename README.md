@@ -35,6 +35,8 @@ Invoke each P as a skill. Skip phases only when genuinely trivial. Never skip Pe
 
 See [docs/CROSS-AGENT-INSTALL.md](docs/CROSS-AGENT-INSTALL.md) for why pstack is cross-agent and how the pattern extends to other AI CLIs.
 
+See [docs/PSTACK-OMX-OPERATING-MODEL.md](docs/PSTACK-OMX-OPERATING-MODEL.md) for the recommended split between `pstack` as the strategic layer and `OMX` as the execution layer.
+
 ## License
 
 MIT
