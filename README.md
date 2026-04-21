@@ -1,6 +1,6 @@
 # pstack
 
-The 5Ps AI Exponential Framework as a portable skill stack — Perceive, Portfolio, Prune, Decide, Perform, Artisan, Progress, Observer. Load the skill for the phase you're in.
+The 5Ps AI Exponential Framework as a portable skill stack — Perceive, Perform, Portfolio, Pause-Promote, Progress, with Prune, Artisan, and Observer as cross-cutting roles. Load the skill for the phase you're in.
 
 Works across Claude Code and Codex CLI. Future agents pluggable via [docs/CROSS-AGENT-INSTALL.md](docs/CROSS-AGENT-INSTALL.md).
 
@@ -15,14 +15,14 @@ After install, skills are available immediately in any session. Run `/pstack` (o
 
 ## The 5Ps
 
-1. **Perceive** — research, scout, probe
-2. **Portfolio** — generate options, build fast prototypes
-3. **Prune** — decide what not to build (the 8th P; runs before or during Perform)
-4. **Decide (Pause-Promote)** — recommend the next bet from the current portfolio
-5. **Perform** — build, integrate, ship
-6. **Artisan** — polish, design quality, UX
-7. **Progress** — measure, learn, feed back
-8. **Observer** — meta-watch patterns across runs
+1. **Perceive** — strategic sensing
+2. **Perform** — move with intention; performance architecture
+3. **Portfolio** — anti-fragile portfolio design
+4. **Pause-Promote** — choose what matters; filtering architecture and discernment
+5. **Progress** — build learning systems
+6. **Prune** — scope discipline across the loop
+7. **Artisan** — quality and design layer
+8. **Observer** — meta-awareness across runs
 
 Invoke each P as a skill. Skip phases only when genuinely trivial. Never skip Perceive on new work.
 

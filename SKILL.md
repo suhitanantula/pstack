@@ -21,11 +21,11 @@ The pstack is a set of composable skills that implement the 5Ps AI Exponential F
 
 | P | Skill | Role |
 |---|-------|------|
-| Perceive | `pstack-perceive` | Research Agent — senses, probes, scrapes, monitors |
-| Portfolio | `pstack-portfolio` | Options Agent — generates scenarios, builds fast prototypes |
-| Pause-Promote | `pstack-decide` | Strategy Agent — decides, prioritises, kills options |
-| Perform | `pstack-perform` | Build Agent — codes, integrates, ships |
-| Progress | `pstack-progress` | Learn Agent — tracks, measures, feeds back |
+| Perceive | `pstack-perceive` | Strategic Sensing Agent — senses, probes, maps, and interprets |
+| Perform | `pstack-perform` | Performance Agent — moves with intention and translates insight into systematic action |
+| Portfolio | `pstack-portfolio` | Portfolio Agent — designs anti-fragile option fields and keeps possibilities alive |
+| Pause-Promote | `pstack-decide` | Discernment Agent — filters what matters and recommends the next bet |
+| Progress | `pstack-progress` | Learning Systems Agent — turns outcomes into advancement capacity |
 | Prune | `pstack-prune` | Scope discipline — decides what not to build |
 | Artisan | `pstack-artisan` | Design Agent — polishes, ensures quality |
 | Observer | `pstack-observer` | Meta Agent — watches patterns, improves the system |
@@ -55,11 +55,11 @@ The Observer (`/pstack-observer`) monitors ACP levels and flags:
 Load the relevant sub-skill for the phase you're in. Each skill is standalone but designed to chain:
 
 ```
-Perceive → Portfolio → Decide → Perform → Progress
-                              ↑
-                           Prune
-              ↓                    ↓
-           Artisan             Observer
+Perceive → Perform → Portfolio → Pause-Promote → Progress
+      ↑            ↘          ↘                ↘        ↓
+      └───────────── loop / return paths ───────────────┘
+             ↓             ↓               ↓
+          Prune        Artisan         Observer
 ```
 
 This chain is the most common path, not a one-way law.
@@ -94,23 +94,23 @@ Core co-intelligence question:
 ## Running a Sprint
 
 For a full sprint cycle, run in order:
-1. `pstack-perceive` — what is the problem? What can the model do?
-2. `pstack-portfolio` — build and compare real options
-3. `pstack-decide` — recommend the next bet from the portfolio
-4. `pstack-prune` — is scope correct? Cut before building
-5. `pstack-perform` — ship the thing
-6. `pstack-artisan` — polish and quality check
-7. `pstack-progress` — what did we learn?
-8. `pstack-observer` — what needs to change in the Pod itself?
+1. `pstack-perceive` — strategic sensing: what is really happening, and what futures are emerging?
+2. `pstack-perform` — move with intention: what should we test in reality now?
+3. `pstack-portfolio` — anti-fragile portfolio design: what option field should stay alive?
+4. `pstack-decide` — pause/promote: what matters enough to advance, and under what parameters?
+5. `pstack-prune` — what must be cut so the move stays coherent?
+6. `pstack-artisan` — where does quality, usability, and craft need tightening?
+7. `pstack-progress` — what learning system did this loop create?
+8. `pstack-observer` — what is the system learning about itself over time?
 
 ## Sub-Skills
 
 Each P is implemented as a standalone skill:
-- `pstack-perceive` — Research/Perception phase
-- `pstack-portfolio` — Options/Prototyping phase
-- `pstack-decide` — Decision phase
-- `pstack-perform` — Build/Ship phase
-- `pstack-progress` — Learning phase
+- `pstack-perceive` — Strategic sensing phase
+- `pstack-perform` — Performance architecture phase
+- `pstack-portfolio` — Anti-fragile portfolio design phase
+- `pstack-decide` — Pause/Promote discernment phase
+- `pstack-progress` — Learning systems phase
 - `pstack-prune` — Scope reduction discipline
 - `pstack-artisan` — Quality/design layer
 - `pstack-observer` — Meta-awareness and system improvement
