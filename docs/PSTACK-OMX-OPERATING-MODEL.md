@@ -117,7 +117,7 @@ This is what lets `Progress` and `Observer` learn from actual delivery instead o
 
 ## Control Transfer Rules
 
-Control should move between layers only at specific moments.
+Control should move between layers only at specific moments, but these transfers are loopable rather than one-way.
 
 ### `pstack -> OMX`
 
@@ -128,7 +128,7 @@ Transfer occurs when:
 - `Decide` has chosen a path
 - `Prune` has cut scope to a shippable unit
 
-At this point, strategy is "good enough for execution" and `OMX` takes over.
+At this point, strategy is "good enough for execution" and `OMX` takes over for the next loop through reality.
 
 ### `OMX -> pstack`
 
@@ -139,7 +139,48 @@ Transfer returns upward when:
 - Scope pressure forces a non-local product decision
 - Execution completes and learning needs to be captured
 
-`OMX` should not make these strategy changes internally. It should surface them back to `Decide`, `Prune`, `Progress`, or `Observer`.
+`OMX` should not make these strategy changes internally. It should surface them back to `Decide`, `Prune`, `Progress`, `Observer`, or all the way to `Perceive` if the original framing is breaking.
+
+## Loop Semantics
+
+The `pstack -> OMX` relationship is not a one-way handoff.
+
+It is a repeated exchange:
+
+- `pstack` frames and recommends
+- `OMX` executes and verifies
+- execution evidence re-enters `pstack`
+- the next move is chosen from a better map
+
+Common loop paths:
+
+- `Decide -> Portfolio`
+- `Portfolio -> Perceive`
+- `Perform/OMX execution -> Decide`
+- `Progress -> Perceive`
+
+This matters because the point is not to reach "final certainty" before execution.
+The point is to improve the quality of the next bet quickly.
+
+## Human Entry Points
+
+The human may enter at any P, not just at final approval.
+
+Useful entry points include:
+
+- `Perceive` when tacit context or political reality is missing
+- `Portfolio` when taste or weighting matters
+- `Decide` when risk appetite or business judgment matters
+- `Perform` when execution touches irreversible, trust, or identity-level choices
+- `Progress` and `Observer` when outcomes need interpretation, not just reporting
+
+The co-intelligence question is:
+
+`Whose judgment improves this loop right now?`
+
+Sometimes that is the agent alone.
+Sometimes it is the human.
+Sometimes it is the pair together.
 
 ## Phase Mapping
 
@@ -149,14 +190,14 @@ The practical mapping is straightforward.
 | --- | --- | --- |
 | `Perceive` | reframed problem, new signals | wait / consume context |
 | `Portfolio` | options, rough prototypes | optional prototype execution support |
-| `Decide` | chosen path, kill list | wait for decision |
+| `Decide` | recommended next bet, parameters, kill list | wait for recommendation and review |
 | `Prune` | reduced scope, ship boundary | prepare execution path |
 | `Perform` | build intent | execute via `solo`, `ralph`, or `team` |
 | `Artisan` | polish criteria | run refinement and QA loops |
 | `Progress` | outcome and lessons | provide evidence pack |
 | `Observer` | systemic recommendations | provide cross-run runtime evidence |
 
-Important detail: `Perform` is where the frameworks touch most directly, but `Perform` still does not replace `OMX`. It sets execution intent; `OMX` performs the execution mechanics.
+Important detail: `Perform` is where the frameworks touch most directly, but `Perform` still does not replace `OMX`. It sets execution intent; `OMX` performs the execution mechanics. If execution weakens the current recommendation, the loop should return upward instead of pretending the chosen path is still correct.
 
 ## Recommended Operating Sequence
 
@@ -172,7 +213,7 @@ For a normal sprint or task:
 8. `pstack Progress`
 9. `pstack Observer`
 
-This keeps strategic thought and execution discipline separate without creating a gap between them.
+This keeps strategic thought and execution discipline separate without creating a gap between them, but the sequence should be treated as the most common loop, not the only legal path.
 
 ## Decision Rules
 
@@ -183,10 +224,11 @@ This keeps strategic thought and execution discipline separate without creating 
 - Scope is still too large
 - The team is arguing about what to build
 - New evidence changes the bet
+- Human judgment would materially improve the current recommendation
 
 ### When `OMX` should take over
 
-- One path has been chosen
+- A next bet has been recommended clearly enough
 - The kill list is explicit
 - The scope box is small enough to ship
 - Verification expectations are clear
@@ -197,6 +239,7 @@ This keeps strategic thought and execution discipline separate without creating 
 - The requested work exceeds the scope box
 - Multiple valid directions reopen
 - A blocker requires changing the success criteria
+- Human judgment is needed before the next loop can responsibly continue
 
 ## Failure Modes
 
@@ -206,7 +249,7 @@ Symptom:
 endless sensing, option generation, and discussion without shipping.
 
 Correction:
-force `Decide` and `Prune`; require a Strategic Brief before more ideation.
+force `Decide` and `Prune`; require a Strategic Brief before more ideation, but preserve enough of the portfolio to revisit if reality changes.
 
 ### 2. `OMX` takes over too early
 
@@ -214,7 +257,7 @@ Symptom:
 excellent execution on a badly framed problem.
 
 Correction:
-send work back to `Perceive` or `Decide` instead of improving the wrong build.
+send work back to `Perceive`, `Portfolio`, or `Decide` instead of improving the wrong build.
 
 ### 3. `OMX` starts making strategic decisions
 

@@ -18,7 +18,7 @@ After install, skills are available immediately in any session. Run `/pstack` (o
 1. **Perceive** — research, scout, probe
 2. **Portfolio** — generate options, build fast prototypes
 3. **Prune** — decide what not to build (the 8th P; runs before or during Perform)
-4. **Decide (Pause-Promote)** — commit to one path
+4. **Decide (Pause-Promote)** — recommend the next bet from the current portfolio
 5. **Perform** — build, integrate, ship
 6. **Artisan** — polish, design quality, UX
 7. **Progress** — measure, learn, feed back
@@ -36,6 +36,8 @@ Invoke each P as a skill. Skip phases only when genuinely trivial. Never skip Pe
 See [docs/CROSS-AGENT-INSTALL.md](docs/CROSS-AGENT-INSTALL.md) for why pstack is cross-agent and how the pattern extends to other AI CLIs.
 
 See [docs/PSTACK-OMX-OPERATING-MODEL.md](docs/PSTACK-OMX-OPERATING-MODEL.md) for the recommended split between `pstack` as the strategic layer and `OMX` as the execution layer.
+
+See [docs/PSTACK-COINTELLIGENCE.md](docs/PSTACK-COINTELLIGENCE.md) for the loop semantics, human entry points, and agent guidance that make `PSTAC` a co-intelligence system rather than a linear workflow.
 
 Artifact templates for the `Strategic Brief`, `Execution Plan`, and `Execution Evidence Pack` live under [docs/templates](docs/templates).
 
