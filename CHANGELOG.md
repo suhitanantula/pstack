@@ -2,9 +2,10 @@
 
 ## v1.1.0
 
-- **Cross-agent support**: pstack now installs as a Claude Code plugin (via `.claude-plugin/`) and a Codex CLI plugin (via `plugins/pstack/.codex-plugin/`). Same skill content, per-agent manifests. See `docs/CROSS-AGENT-INSTALL.md`.
+- **Codex CLI support**: pstack now installs as a Codex plugin via `plugins/pstack/.codex-plugin/plugin.json`. Skill markdown duplicated into `plugins/pstack/skills/` for Codex plugin discovery.
+- **Claude Code install unchanged**: still installs via `git clone ... ~/.claude/skills/pstack && bash setup` (the gstack pattern). No plugin wrapper — the repo clone IS the install.
 - Added `README.md` with install table and 5Ps overview.
-- Skill markdown duplicated into `plugins/pstack/skills/` for Codex plugin discovery. Top-level `skills/` remains canonical source.
+- Added `docs/CROSS-AGENT-INSTALL.md` — rationale for cross-agent support and pattern for extending to other AI CLIs.
 
 ## v1.0.0
 
