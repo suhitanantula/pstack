@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+# sync-codex-skills — mirror canonical SKILL.md files into plugins/pstack/skills/
+#
+# Run after editing any top-level SKILL.md or pstack-*/SKILL.md so the Codex
+# plugin bundle stays in sync. The top-level dirs are the canonical source;
+# plugins/pstack/skills/ is the duplicated-for-Codex copy.
+#
+# Usage:
+#   bin/sync-codex-skills            # sync
+#   bin/sync-codex-skills --check    # exit non-zero if out of sync (for CI / pre-commit)
+
+set -euo pipefail
+
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$REPO"
+
+CHECK_ONLY=0
+if [ "${1:-}" = "--check" ]; then
+  CHECK_ONLY=1
+fi
+
+CODEX_DIR="plugins/pstack/skills"
+drift=0
+
+sync_one() {
+  local src="$1"
+  local dst="$2"
+  if [ "$CHECK_ONLY" = 1 ]; then
+    if ! cmp -s "$src" "$dst" 2>/dev/null; then
+      echo "DRIFT: $dst differs from $src"
+      drift=1
+    fi
+  else
+    mkdir -p "$(dirname "$dst")"
+    cp "$src" "$dst"
+  fi
+}
+
+# Main pstack skill (repo-root SKILL.md → Codex plugins/pstack/skills/pstack/SKILL.md)
+sync_one "SKILL.md" "$CODEX_DIR/pstack/SKILL.md"
+
+# Phase skills (pstack-<phase>/SKILL.md → plugins/pstack/skills/pstack-<phase>/SKILL.md)
+for dir in pstack-*/; do
+  name="${dir%/}"
+  sync_one "$dir/SKILL.md" "$CODEX_DIR/$name/SKILL.md"
+done
+
+if [ "$CHECK_ONLY" = 1 ]; then
+  if [ "$drift" = 1 ]; then
+    echo "Run: bin/sync-codex-skills"
+    exit 1
+  fi
+  echo "Codex skill bundle in sync."
+else
+  echo "Synced Codex skills from canonical sources."
+fi
