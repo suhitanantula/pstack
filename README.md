@@ -39,6 +39,8 @@ See [docs/PSTACK-OMX-OPERATING-MODEL.md](docs/PSTACK-OMX-OPERATING-MODEL.md) for
 
 See [docs/PSTACK-COINTELLIGENCE.md](docs/PSTACK-COINTELLIGENCE.md) for the loop semantics, human entry points, and agent guidance that make `PSTAC` a co-intelligence system rather than a linear workflow.
 
+See [docs/PSTACK-CODEX-INTEGRATION.md](docs/PSTACK-CODEX-INTEGRATION.md) for notes on bringing the stronger NanoClaw-style 5Ps approach deeper into Codex and `pstack`.
+
 Artifact templates for the `Strategic Brief`, `Execution Plan`, and `Execution Evidence Pack` live under [docs/templates](docs/templates).
 
 ## License
