@@ -40,6 +40,12 @@ Short example:
 - humans still decide what counts as meaningful, ethical, or culturally coherent
 - together they build smarter filters, not just faster choices
 
+This is the move from:
+- generate options -> evaluate -> decide -> implement
+
+to:
+- design filters -> deploy -> learn -> refine -> scale
+
 ## When to Run
 
 - After Portfolio has prototypes ready

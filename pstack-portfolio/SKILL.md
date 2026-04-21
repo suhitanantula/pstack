@@ -37,6 +37,11 @@ Short example:
 The point is not abundance for its own sake.
 It is optionality with discipline.
 
+Portfolio is where the system becomes less fragile:
+- failures can still teach
+- winners can be amplified
+- the whole system becomes harder to break through a single wrong bet
+
 ## The Core Rule
 
 > **Prototype before you present. If you can't prototype it, it's not ready.**

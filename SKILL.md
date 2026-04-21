@@ -21,10 +21,10 @@ The pstack is a set of composable skills that implement the 5Ps AI Exponential F
 
 | P | Skill | Role |
 |---|-------|------|
-| Perceive | `pstack-perceive` | Strategic Sensing Agent — senses, probes, maps, and interprets |
-| Perform | `pstack-perform` | Performance Agent — moves with intention and translates insight into systematic action |
-| Portfolio | `pstack-portfolio` | Portfolio Agent — designs anti-fragile option fields and keeps possibilities alive |
-| Pause-Promote | `pstack-decide` | Discernment Agent — filters what matters and recommends the next bet |
+| Perceive | `pstack-perceive` | Strategic Sensing Agent — senses what is happening now and what may be emerging |
+| Perform | `pstack-perform` | Performance Agent — translates strategic intent into systematic action |
+| Portfolio | `pstack-portfolio` | Portfolio Agent — designs anti-fragile option fields and disciplined optionality |
+| Pause-Promote | `pstack-decide` | Discernment Agent — builds filtering architectures and recommends what matters next |
 | Progress | `pstack-progress` | Learning Systems Agent — turns outcomes into advancement capacity |
 | Prune | `pstack-prune` | Scope discipline — decides what not to build |
 | Artisan | `pstack-artisan` | Design Agent — polishes, ensures quality |
@@ -72,6 +72,7 @@ The 5Ps are a recursive co-intelligence loop:
 - `Progress` should feed the next `Perceive`
 
 Looping is normal. It is not failure.
+The point is to move with rhythm, not to force a stage-gate.
 
 ## Human Entry
 
@@ -120,6 +121,10 @@ Each P is implemented as a standalone skill:
 **Prototype before you present. If you can't prototype it, it's not ready.**
 
 The Portfolio skill is where the shift happens. Traditional methodology presents options as documents. The pstack Portfolio builds options as working prototypes — even rough ones. The decision is made on what works, not what was described.
+
+Additional rule from the book:
+
+**You don't need an AI strategy. You need a strategic rhythm for AI.**
 
 ## Portability
 

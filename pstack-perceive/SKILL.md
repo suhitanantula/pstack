@@ -29,9 +29,19 @@ If the missing context is tacit, political, relational, or identity-level, bring
 
 Perceive in the book is not "more research." It is the discipline of sensing across ▲ structure, ● questioning, and 〰 intuition so the system can choose futures, not just tools.
 
+This is the heart of Perceive:
+
+- not observation alone, but wisdom
+- not just data, but meaning
+- not just current state, but emerging possibility
+
 Short example:
 - AI can scan patterns across a value chain or user corpus
 - humans decide which patterns matter, which risks are unacceptable, and what must be preserved
+
+Another example from the book:
+- AI can surface subtle diagnostic patterns or hidden similarities at scale
+- humans decide why the pattern matters and what should happen because of it
 
 ## When to Run
 

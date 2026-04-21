@@ -24,6 +24,9 @@ After install, skills are available immediately in any session. Run `/pstack` (o
 7. **Artisan** — quality and design layer
 8. **Observer** — meta-awareness across runs
 
+The 5Ps are not a ladder. They are a rhythmic loop.
+The point is not perfect planning. The point is better movement.
+
 Invoke each P as a skill. Skip phases only when genuinely trivial. Never skip Perceive on new work.
 
 ## Update
@@ -40,6 +43,10 @@ See [docs/PSTACK-OMX-OPERATING-MODEL.md](docs/PSTACK-OMX-OPERATING-MODEL.md) for
 See [docs/PSTACK-COINTELLIGENCE.md](docs/PSTACK-COINTELLIGENCE.md) for the loop semantics, human entry points, and agent guidance that make `PSTAC` a co-intelligence system rather than a linear workflow.
 
 See [docs/PSTACK-CODEX-INTEGRATION.md](docs/PSTACK-CODEX-INTEGRATION.md) for notes on bringing the stronger NanoClaw-style 5Ps approach deeper into Codex and `pstack`.
+
+See [docs/PSTACK-CLOUDFLARE-PORTFOLIO.md](docs/PSTACK-CLOUDFLARE-PORTFOLIO.md) for the current Cloudflare opportunity map across PSTACK, Helix Lab, Ethnobot, Fuse, and client work.
+
+See [docs/PSTACK-FUSE-OPTIONS.md](docs/PSTACK-FUSE-OPTIONS.md) for the current Fuse option map after building the first Cloudflare-native PSTACK runtime.
 
 Artifact templates for the `Strategic Brief`, `Execution Plan`, and `Execution Evidence Pack` live under [docs/templates](docs/templates).
 

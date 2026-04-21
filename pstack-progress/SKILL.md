@@ -34,6 +34,12 @@ Short example:
 - a team does not just log what happened
 - it builds a learning architecture so each interaction, result, and failure improves the next loop
 
+This is the book's deeper point:
+- not iteration alone
+- but building improvement capacity
+- not just improvement events
+- but systems that get smarter through use
+
 ## When to Run
 
 - End of every sprint (1-2 weeks)

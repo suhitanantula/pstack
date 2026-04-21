@@ -35,10 +35,17 @@ It is where reality gets a vote. If execution weakens the current bet, loop back
 
 The build-test-learn cycle is faster than the plan-build-test cycle. But in the book's sense, this is not just shipping code. It is building systems that execute strategic intent at scale.
 
+This is not cautious prototyping.
+This is performance at scale, where strategic intention is translated into repeatable execution.
+
 Short example:
 - a human defines the strategic boundaries, values, and success conditions
 - the machine executes many tactical moves inside those boundaries
 - the result is not mere automation; it is scaled strategic intent
+
+Book cue:
+- not "whether to act"
+- but "how to act with strategic precision at machine speed"
 
 ## When to Run
 
