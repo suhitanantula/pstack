@@ -26,6 +26,9 @@ Something working imperfectly today beats something perfect in three weeks. Spee
 
 **Key question:** "What is the smallest thing that proves this works?"
 
+Perform is not "defend the current plan at all costs."
+It is where reality gets a vote. If execution weakens the current bet, loop back upward.
+
 ## The Core Rule
 
 > **Ship it. Fix it. Ship it again.**
@@ -37,6 +40,7 @@ The build-test-learn cycle is faster than the plan-build-test cycle. You learn m
 - After Decide has chosen a path
 - After Prune has confirmed the scope is right
 - When you have a clear brief from Portfolio (what to build, what assumption to test)
+- When a recommendation is strong enough to test in reality, even if the broader portfolio still exists
 
 ## The Perform Protocol
 
@@ -113,6 +117,12 @@ This is not fatalism — it's a design principle. When you assume replacement:
 ## The Observer Hook
 
 The Build Agent's self-critique feeds directly to Observer. Every build teaches the Pod something about itself.
+
+## Human Handshake
+
+- AI contribution: execution speed, simulation, implementation, systematic verification support
+- Human contribution: values boundaries, trust calls, irreversible choices, interpretation of what "good enough" means
+- Shared question: `What should be tested in reality now, and where does human judgment need to stay active during execution?`
 
 ## Portability
 

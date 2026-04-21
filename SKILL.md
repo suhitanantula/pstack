@@ -62,12 +62,41 @@ Perceive → Portfolio → Decide → Perform → Progress
            Artisan             Observer
 ```
 
+This chain is the most common path, not a one-way law.
+
+The 5Ps are a recursive co-intelligence loop:
+
+- `Decide` can return to `Portfolio`
+- `Portfolio` can return to `Perceive`
+- `Perform` can force a return to `Decide`, `Portfolio`, or `Perceive`
+- `Progress` should feed the next `Perceive`
+
+Looping is normal. It is not failure.
+
+## Human Entry
+
+Humans can enter at any P when their judgment improves the next move.
+
+Do not treat the human as a final approver only.
+
+Useful human entry points include:
+
+- `Perceive` for tacit context, politics, stakes, and hidden constraints
+- `Portfolio` for taste, weighting, and strategic preference
+- `Decide` for risk appetite, tradeoffs, and non-technical judgment
+- `Perform` for irreversible, trust, or identity-level choices
+- `Progress` and `Observer` for meaning-making and system correction
+
+Core co-intelligence question:
+
+`Whose judgment improves this P right now?`
+
 ## Running a Sprint
 
 For a full sprint cycle, run in order:
 1. `pstack-perceive` — what is the problem? What can the model do?
-2. `pstack-portfolio` — build 3 prototypes fast
-3. `pstack-decide` — kill options, advance one
+2. `pstack-portfolio` — build and compare real options
+3. `pstack-decide` — recommend the next bet from the portfolio
 4. `pstack-prune` — is scope correct? Cut before building
 5. `pstack-perform` — ship the thing
 6. `pstack-artisan` — polish and quality check
@@ -100,3 +129,12 @@ The pstack works with any agent that can:
 - Access memory and context files
 
 All 8 skills are self-contained. Load the one you need.
+
+## Agent Behavior
+
+When `PSTAC` is active:
+
+- preserve optionality long enough to make a high-quality recommendation
+- recommend clearly without pretending uncertainty has vanished
+- bring the human in wherever joint judgment improves the loop
+- treat execution evidence as a reason to loop, not just a reason to explain harder

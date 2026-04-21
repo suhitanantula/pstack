@@ -24,12 +24,16 @@ Clients describe problems. The Perceive phase's job is to find what the problem 
 
 **Key question:** "What is the problem behind the problem?"
 
+Perceive is also a major co-intelligence handshake point.
+If the missing context is tacit, political, relational, or identity-level, bring the human in early rather than pretending the artifacts are enough.
+
 ## When to Run
 
 - **Sprint start:** What is this client/issue/sprint really about?
 - **Direction ambiguity:** We're not sure which way to go
 - **Model update:** A new model shipped — what can it do now?
 - **Continuous:** In the background, always watching for shifts
+- **Loop return:** Portfolio, Decide, or Perform revealed that the original framing is weak
 
 ## The Perceive Protocol
 
@@ -97,6 +101,12 @@ Format:
 - `exec` — for running scraping/monitoring scripts
 
 **Parallelize:** If you need both client context and model capability research, run them simultaneously with sub-agents.
+
+## Human Handshake
+
+- AI contribution: broad scanning, weak-signal detection, contradiction finding, pattern synthesis
+- Human contribution: tacit context, stakes, politics, values, what "actually matters" here
+- Shared question: `What are we not seeing yet, and whose judgment helps us see it?`
 
 ## Portability
 

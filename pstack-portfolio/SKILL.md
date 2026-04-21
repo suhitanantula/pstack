@@ -24,6 +24,9 @@ Every option should be a thing you can show, not a thing you can describe. If yo
 
 **Key question:** "What would this look like if it worked?"
 
+Portfolio is not a waiting room before Decide.
+It is a live option field that should stay visible long enough for good judgment.
+
 ## The Core Rule
 
 > **Prototype before you present. If you can't prototype it, it's not ready.**
@@ -36,6 +39,7 @@ This is the operational shift from traditional strategy consulting. Instead of p
 - When a decision point has been reached and you need to know which path to take
 - When the client says "we have three options" — you turn those into three prototypes
 - When you're about to commit significant resources to one direction
+- When execution evidence shows the current bet may need adjacent options again
 
 ## The Portfolio Protocol
 
@@ -80,7 +84,7 @@ Prototype format:
 
 ### Step 4: The Portfolio Review
 
-Present the prototypes. The decision-maker (Strategy Agent / human) chooses.
+Present the prototypes. The decision-maker (Strategy Agent / human) reviews the live portfolio and recommends the next bet from it.
 
 Format:
 ```
@@ -112,6 +116,12 @@ Format:
 ## The Prune Hook
 
 Portfolio and Prune are tightly linked. After generating 3 options, **run pstack-prune before building prototypes** — does the scope of each option make sense? Are we trying to do too much in one option?
+
+## Human Handshake
+
+- AI contribution: option generation, rapid prototyping, contrast building, scenario expansion
+- Human contribution: taste, weighting, strategic preference, risk appetite, contextual fit
+- Shared question: `Which of these options deserves more attention now, and which should remain alive for later loops?`
 
 ## Portability
 

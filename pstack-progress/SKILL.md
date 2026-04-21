@@ -36,6 +36,7 @@ Not a project retrospective. Not a post-mortem that leads to action items no one
 - When a major decision point is reached
 - When something unexpected happened (positive or negative)
 - Before starting a new sprint — the Progress of the last sprint is the Perceive of the next
+- Any time execution evidence suggests the current portfolio or framing should change
 
 ## The Progress Protocol
 
@@ -122,6 +123,12 @@ For next sprint:
 Progress feeds two places:
 1. **Next sprint's Perceive** — the lessons inform the next cycle
 2. **Observer Agent** — the aggregate of all Progress reports is what Observer watches for patterns
+
+## Human Handshake
+
+- AI contribution: evidence synthesis, deviation analysis, cross-run pattern spotting
+- Human contribution: meaning-making, redefining success, interpreting what the evidence should change
+- Shared question: `What do these outcomes mean for the next loop, not just for this sprint's scorecard?`
 
 ## Portability
 
