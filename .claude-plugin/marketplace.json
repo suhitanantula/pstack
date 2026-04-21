@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pstack",
+  "description": "5Ps AI Exponential Framework — methodology skill stack for AI-orchestrated deep work.",
+  "owner": {
+    "name": "Suhit Anantula",
+    "url": "https://github.com/suhitanantula"
+  },
+  "plugins": [
+    {
+      "name": "pstack",
+      "description": "Methodology-first skill stack: Perceive, Portfolio, Prune, Decide, Perform, Artisan, Progress, Observer.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

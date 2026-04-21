@@ -1,0 +1,25 @@
+{
+  "name": "pstack",
+  "version": "1.1.0",
+  "description": "5Ps AI Exponential Framework — methodology skill stack.",
+  "author": {
+    "name": "Suhit Anantula",
+    "url": "https://github.com/suhitanantula"
+  },
+  "homepage": "https://github.com/suhitanantula/pstack",
+  "repository": "https://github.com/suhitanantula/pstack",
+  "license": "MIT",
+  "keywords": ["methodology", "productivity", "5ps", "ai-agents", "orchestration"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "pstack",
+    "shortDescription": "5Ps AI Exponential Framework — methodology skill stack for deep work.",
+    "longDescription": "pstack implements the 5Ps framework (Perceive, Portfolio, Prune, Decide, Perform, Artisan, Progress, Observer) as composable skills. Each P is a phase in AI-orchestrated work — invoke the skill for the phase you're in.",
+    "developerName": "Suhit Anantula",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "websiteURL": "https://github.com/suhitanantula/pstack",
+    "privacyPolicyURL": "https://github.com/suhitanantula/pstack/blob/main/README.md",
+    "termsOfServiceURL": "https://github.com/suhitanantula/pstack/blob/main/LICENSE"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pstack",
+  "description": "The 5Ps AI Exponential Framework — Perceive, Portfolio, Prune, Decide, Perform, Artisan, Progress, Observer. Composable skill stack for AI-orchestrated deep work.",
+  "author": {
+    "name": "Suhit Anantula",
+    "url": "https://github.com/suhitanantula"
+  },
+  "homepage": "https://github.com/suhitanantula/pstack",
+  "repository": "https://github.com/suhitanantula/pstack",
+  "license": "MIT"
+}

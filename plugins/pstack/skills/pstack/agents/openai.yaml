@@ -1,0 +1,4 @@
+interface:
+  display_name: "pstack"
+  short_description: "5Ps AI Exponential Framework methodology stack."
+  default_prompt: "Use $pstack to load the 5Ps framework overview, or invoke a specific phase ($pstack-perceive, $pstack-portfolio, etc.)."
