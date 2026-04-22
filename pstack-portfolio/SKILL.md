@@ -1,6 +1,11 @@
 ---
 name: pstack-portfolio
-description: Portfolio phase of the 5Ps AI Exponential Framework. The Portfolio Agent designs anti-fragile option fields and live possibilities. Use when you need options, not documents. Triggered by: "portfolio", "build options", "what are the paths", "prototype this", "show me alternatives", "anti-fragility", "the Portfolio phase".
+description: >-
+  Portfolio phase of the 5Ps AI Exponential Framework. The Portfolio Agent
+  designs anti-fragile option fields and live possibilities. Use when you need
+  options, not documents. Triggered by: "portfolio", "build options",
+  "what are the paths", "prototype this", "show me alternatives",
+  "anti-fragility", "the Portfolio phase".
 ---
 
 > **Rhythm:** ● Loops | **Tempo:** 60Hz (iterative exploration) | **Cognitive Mode:** Generative, experimental

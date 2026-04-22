@@ -5,6 +5,7 @@ set -e
 
 PSTACK_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 SKILLS_DIR="$HOME/.claude/skills"
+BIN_DIR="$HOME/.local/bin"
 
 SKILLS=(
   pstack
@@ -20,6 +21,7 @@ SKILLS=(
 )
 
 mkdir -p "$SKILLS_DIR"
+mkdir -p "$BIN_DIR"
 
 echo "Installing pstack skills..."
 
@@ -41,6 +43,10 @@ done
 # Make bin scripts executable
 chmod +x "$PSTACK_DIR/bin/"* 2>/dev/null || true
 
+# Install CLI shim onto PATH
+rm -f "$BIN_DIR/pstack"
+ln -snf "$PSTACK_DIR/bin/pstack" "$BIN_DIR/pstack"
+
 # Create state dir
 mkdir -p "$HOME/.pstack"
 
@@ -56,3 +62,6 @@ echo "  /pstack-artisan      — Design/Quality Agent"
 echo "  /pstack-progress     — Learn Agent"
 echo "  /pstack-observer     — Meta Agent"
 echo "  /pstack-upgrade      — Self-updater"
+echo ""
+echo "CLI:"
+echo "  pstack --help        — usage and install diagnostics"

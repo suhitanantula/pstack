@@ -1,6 +1,10 @@
 ---
 name: pstack-perceive
-description: Perceive phase of the 5Ps AI Exponential Framework. The Strategic Sensing Agent senses, probes, maps, and interprets. Use at sprint start and continuously throughout. Triggered by: "perceive", "research this", "probe", "what's the situation", "scout", "strategic sensing", "the Perceive phase".
+description: >-
+  Perceive phase of the 5Ps AI Exponential Framework. The Strategic Sensing
+  Agent senses, probes, maps, and interprets. Use at sprint start and
+  continuously throughout. Triggered by: "perceive", "research this", "probe",
+  "what's the situation", "scout", "strategic sensing", "the Perceive phase".
 ---
 
 > **Rhythm:** 〰 Vibes | **Tempo:** 20Hz (deep sensing) | **Cognitive Mode:** Divergent, intuitive

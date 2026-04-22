@@ -1,6 +1,11 @@
 ---
 name: pstack-observer
-description: Observer — the meta-awareness layer of the 5Ps AI Exponential Framework. The Meta Agent watches patterns, improves the system itself. Use continuously, especially between sprints. Triggered by: "observer", "meta", "patterns", "improve the system", "what are we missing", "system health", "the Observer", "the Meta Agent".
+description: >-
+  Observer — the meta-awareness layer of the 5Ps AI Exponential Framework. The
+  Meta Agent watches patterns, improves the system itself. Use continuously,
+  especially between sprints. Triggered by: "observer", "meta", "patterns",
+  "improve the system", "what are we missing", "system health",
+  "the Observer", "the Meta Agent".
 ---
 
 > **Rhythm:** 〰 Vibes | **Tempo:** 15Hz (meta-awareness) | **Cognitive Mode:** Pattern recognition, systemic

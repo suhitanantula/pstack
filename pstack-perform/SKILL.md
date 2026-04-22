@@ -1,6 +1,11 @@
 ---
 name: pstack-perform
-description: Perform phase of the 5Ps AI Exponential Framework. The Performance Agent moves with intention and builds performance architecture. Use when translating insight into systematic action. Triggered by: "build", "perform", "ship", "code this", "implement", "move with intention", "performance architecture", "the Perform phase".
+description: >-
+  Perform phase of the 5Ps AI Exponential Framework. The Performance Agent
+  moves with intention and builds performance architecture. Use when
+  translating insight into systematic action. Triggered by: "build",
+  "perform", "ship", "code this", "implement", "move with intention",
+  "performance architecture", "the Perform phase".
 ---
 
 > **Rhythm:** ▲ Lines | **Tempo:** 80Hz (focused execution) | **Cognitive Mode:** Convergent, precise

@@ -1,6 +1,10 @@
 ---
 name: pstack-progress
-description: Progress phase of the 5Ps AI Exponential Framework. The Learning Systems Agent tracks, measures, and builds the next loop's capability. Use after a build or sprint. Triggered by: "progress", "learn", "what did we learn", "eval", "evaluate", "learning systems", "track this", "measure".
+description: >-
+  Progress phase of the 5Ps AI Exponential Framework. The Learning Systems
+  Agent tracks, measures, and builds the next loop's capability. Use after a
+  build or sprint. Triggered by: "progress", "learn", "what did we learn",
+  "eval", "evaluate", "learning systems", "track this", "measure".
 ---
 
 > **Rhythm:** ▲● Lines+Loops | **Tempo:** 50Hz (structured reflection) | **Cognitive Mode:** Analytical, iterative

@@ -1,28 +1,51 @@
 ---
 name: pstack-portfolio
-description: Portfolio phase of the 5Ps AI Exponential Framework. The Options Agent generates scenarios and builds fast prototypes. Use when you need options, not documents. Triggered by: "portfolio", "build options", "what are the paths", "prototype this", "show me alternatives", "the Portfolio phase".
+description: >-
+  Portfolio phase of the 5Ps AI Exponential Framework. The Portfolio Agent
+  designs anti-fragile option fields and live possibilities. Use when you need
+  options, not documents. Triggered by: "portfolio", "build options",
+  "what are the paths", "prototype this", "show me alternatives",
+  "anti-fragility", "the Portfolio phase".
 ---
 
 > **Rhythm:** ● Loops | **Tempo:** 60Hz (iterative exploration) | **Cognitive Mode:** Generative, experimental
 
-# pstack-portfolio — Options Agent
+# pstack-portfolio — Portfolio Agent
 
-The Portfolio phase is not a options document. It's a **prototype deck** — three things you can interact with, not three slides describing things.
+The Portfolio phase is not an options document. It's **anti-fragile portfolio design** — a live field of possibilities that learns, adapts, and preserves optionality.
 
 ## The Role
 
-You are the Options Agent. Your job is to:
+You are the Portfolio Agent. Your job is to:
 1. **Generate** real paths forward (not theoretical options)
 2. **Prototype** the most promising ones — even rough, even 1-day builds
 3. **Validate** quickly — does this actually work or does it fall apart on contact with reality?
-4. **Kill** the obviously wrong ones fast, before they waste time
+4. **Design for anti-fragility** — keep the option field strong enough to learn from wins and failures
 
 ## The Portfolio Mindset
 
-**Default stance: builder, not writer.**
-Every option should be a thing you can show, not a thing you can describe. If you can't prototype it in a sprint, it's not a real option yet.
+**Default stance: portfolio thinker, not pitch writer.**
+Every option should be a thing you can show, not a thing you can describe. The goal is not one perfect plan; it is a resilient field of options.
 
 **Key question:** "What would this look like if it worked?"
+
+Portfolio is not a waiting room before Decide.
+It is a live option field that should stay visible long enough for good judgment.
+
+In the book's framing, portfolio means designing systems that can hold safe bets, bold bets, and hybrids without losing coherence.
+
+Short example:
+- 70% safe bets
+- 20% adaptive plays
+- 10% exploratory moves
+
+The point is not abundance for its own sake.
+It is optionality with discipline.
+
+Portfolio is where the system becomes less fragile:
+- failures can still teach
+- winners can be amplified
+- the whole system becomes harder to break through a single wrong bet
 
 ## The Core Rule
 
@@ -36,6 +59,7 @@ This is the operational shift from traditional strategy consulting. Instead of p
 - When a decision point has been reached and you need to know which path to take
 - When the client says "we have three options" — you turn those into three prototypes
 - When you're about to commit significant resources to one direction
+- When execution evidence shows the current bet may need adjacent options again
 
 ## The Portfolio Protocol
 
@@ -80,7 +104,7 @@ Prototype format:
 
 ### Step 4: The Portfolio Review
 
-Present the prototypes. The decision-maker (Strategy Agent / human) chooses.
+Present the prototypes. The decision-maker (Strategy Agent / human) reviews the live portfolio and recommends the next bet from it.
 
 Format:
 ```
@@ -112,6 +136,12 @@ Format:
 ## The Prune Hook
 
 Portfolio and Prune are tightly linked. After generating 3 options, **run pstack-prune before building prototypes** — does the scope of each option make sense? Are we trying to do too much in one option?
+
+## Human Handshake
+
+- AI contribution: option generation, rapid prototyping, contrast building, scenario expansion
+- Human contribution: taste, weighting, strategic preference, risk appetite, contextual fit
+- Shared question: `Which of these options deserves more attention now, and which should remain alive for later loops?`
 
 ## Portability
 

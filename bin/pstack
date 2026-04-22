@@ -1,0 +1,95 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_PATH="$0"
+while [ -L "$SCRIPT_PATH" ]; do
+  LINK_TARGET="$(readlink "$SCRIPT_PATH")"
+  case "$LINK_TARGET" in
+    /*) SCRIPT_PATH="$LINK_TARGET" ;;
+    *) SCRIPT_PATH="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)/$LINK_TARGET" ;;
+  esac
+done
+
+PSTACK_DIR="$(cd "$(dirname "$SCRIPT_PATH")/.." && pwd -P)"
+VERSION="$(cat "$PSTACK_DIR/VERSION" 2>/dev/null || echo "unknown")"
+
+usage() {
+  cat <<EOF
+pstack v$VERSION
+
+Usage:
+  pstack --help
+  pstack --version
+  pstack doctor
+  pstack setup
+  pstack update-check [--force]
+
+Notes:
+  - The main pstack surface is the installed skill set: /pstack, /pstack-perceive, etc.
+  - This CLI exists to make the install discoverable and to expose basic maintenance commands.
+EOF
+}
+
+doctor() {
+  local failures=0
+  local skills_dir="$HOME/.claude/skills"
+  local bin_link="$HOME/.local/bin/pstack"
+
+  printf 'VERSION: %s\n' "$VERSION"
+  printf 'REPO: %s\n' "$PSTACK_DIR"
+
+  if [ -L "$bin_link" ] || [ -x "$bin_link" ]; then
+    printf 'CLI: ok (%s)\n' "$bin_link"
+  else
+    printf 'CLI: missing (%s)\n' "$bin_link"
+    failures=1
+  fi
+
+  for skill in \
+    pstack \
+    pstack-perceive \
+    pstack-portfolio \
+    pstack-decide \
+    pstack-prune \
+    pstack-perform \
+    pstack-artisan \
+    pstack-progress \
+    pstack-observer \
+    pstack-upgrade
+  do
+    if [ -e "$skills_dir/$skill/SKILL.md" ] || [ -e "$skills_dir/$skill" ]; then
+      printf 'SKILL: ok (%s)\n' "$skill"
+    else
+      printf 'SKILL: missing (%s)\n' "$skill"
+      failures=1
+    fi
+  done
+
+  return "$failures"
+}
+
+cmd="${1:---help}"
+
+case "$cmd" in
+  --help|-h|help)
+    usage
+    ;;
+  --version|version)
+    printf '%s\n' "$VERSION"
+    ;;
+  doctor)
+    doctor
+    ;;
+  setup)
+    exec "$PSTACK_DIR/setup"
+    ;;
+  update-check)
+    shift || true
+    exec "$PSTACK_DIR/bin/pstack-update-check" "$@"
+    ;;
+  *)
+    printf 'Unknown command: %s\n\n' "$cmd" >&2
+    usage >&2
+    exit 1
+    ;;
+esac

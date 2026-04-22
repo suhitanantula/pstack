@@ -1,6 +1,10 @@
 ---
 name: pstack-prune
-description: Prune — the 8th P. The discipline of scope reduction and deciding what not to build. Use before building, after Portfolio, during any scope conversation. Triggered by: "prune", "scope", "cut this", "too much", "scope creep", "what should we not do", "the Prune phase", "simplify".
+description: >-
+  Prune — the 8th P. The discipline of scope reduction and deciding what not to
+  build. Use before building, after Portfolio, during any scope conversation.
+  Triggered by: "prune", "scope", "cut this", "too much", "scope creep",
+  "what should we not do", "the Prune phase", "simplify".
 ---
 
 > **Rhythm:** ▲ Lines | **Tempo:** 30Hz (ruthless clarity) | **Cognitive Mode:** Reductive, decisive

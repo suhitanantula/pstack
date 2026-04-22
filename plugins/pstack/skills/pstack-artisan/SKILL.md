@@ -1,6 +1,11 @@
 ---
 name: pstack-artisan
-description: Artisan — the quality and design layer of the 5Ps AI Exponential Framework. The Design Agent polishes and ensures work is usable, not just functional. Use before shipping, after Perform, and continuously. Triggered by: "artisan", "quality", "polish", "design check", "UX", "make it usable", "the Artisan", "the Design Agent".
+description: >-
+  Artisan — the quality and design layer of the 5Ps AI Exponential Framework.
+  The Design Agent polishes and ensures work is usable, not just functional.
+  Use before shipping, after Perform, and continuously. Triggered by:
+  "artisan", "quality", "polish", "design check", "UX", "make it usable",
+  "the Artisan", "the Design Agent".
 ---
 
 > **Rhythm:** 〰▲ Vibes+Lines | **Tempo:** 55Hz (craft + precision) | **Cognitive Mode:** Aesthetic, detail-oriented

@@ -1,6 +1,10 @@
 ---
 name: pstack-decide
-description: Pause-Promote phase of the 5Ps AI Exponential Framework. The Discernment Agent designs filtering architecture and recommends the next bet. Use when a decision is needed. Triggered by: "decide", "pause-promote", "kill this", "which path", "what matters", "filter this", "make the call", "prioritise".
+description: >-
+  Pause-Promote phase of the 5Ps AI Exponential Framework. The Discernment
+  Agent designs filtering architecture and recommends the next bet. Use when a
+  decision is needed. Triggered by: "decide", "pause-promote", "kill this",
+  "which path", "what matters", "filter this", "make the call", "prioritise".
 ---
 
 > **Rhythm:** ●〰 Loops+Vibes | **Tempo:** 40Hz (deliberate judgment) | **Cognitive Mode:** Evaluative, strategic
