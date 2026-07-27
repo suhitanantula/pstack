@@ -1,5 +1,7 @@
 # pstack
 
+> **Rotman course-edition working fork:** this local branch explores how the canonical PStack can become the participant runtime for AI Native Business Design. It is exploratory work and does not imply Rotman approval, endorsement, or a final partnership. Start with [`docs/rotman/README.md`](docs/rotman/README.md).
+
 The 5Ps AI Exponential Framework as a portable skill stack — Perceive, Perform, Portfolio, Pause-Promote, Progress, with Prune, Artisan, and Observer as cross-cutting roles. Load the skill for the phase you're in.
 
 Works across Claude Code and Codex CLI. Future agents pluggable via [docs/CROSS-AGENT-INSTALL.md](docs/CROSS-AGENT-INSTALL.md).

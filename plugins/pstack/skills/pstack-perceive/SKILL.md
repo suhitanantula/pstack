@@ -57,6 +57,25 @@ Another example from the book:
 
 ## The Perceive Protocol
 
+### Step 0: Prior Knowledge Scan
+
+Before sensing the problem, check what failed last time on similar work. Read your own logs first.
+
+```bash
+bd memories "<topic-keyword>"       # e.g. "proposal", "mitcham", "pstack"
+bd memories "<client-or-domain>"    # e.g. "timberlink", "supabase", "sub-agent"
+```
+
+If relevant memories exist, surface them before proceeding:
+
+```
+## Prior Knowledge Scan
+- [memory]: [what it says]
+→ Adjustments this sprint: [what to do differently]
+```
+
+Time-box to 60 seconds. If no relevant memories: proceed immediately.
+
 ### Step 1: Sense the Problem
 
 ```
