@@ -1,168 +1,185 @@
 ---
 name: pstack-observer
 description: >-
-  Observer — the meta-awareness layer of the 5Ps AI Exponential Framework. The
-  Meta Agent watches patterns, improves the system itself. Use continuously,
-  especially between sprints. Triggered by: "observer", "meta", "patterns",
-  "improve the system", "what are we missing", "system health",
-  "the Observer", "the Meta Agent".
+  Observer — the meta-awareness layer of the 5Ps of Loop Design.
+  Not a per-loop tool. A periodic reflector that watches patterns across multiple
+  design loops and asks what the practitioner and the system are learning about
+  themselves. Run between major milestones or at semester reflection points.
+  Triggered by: "observer", "meta", "patterns across loops", "what are we learning
+  about ourselves", "am I growing", "system health", "Observer phase".
 ---
 
-> **Rhythm:** 〰 Vibes | **Tempo:** 15Hz (meta-awareness) | **Cognitive Mode:** Pattern recognition, systemic
+> **Rhythm:** 〰 Cultural sensing across time | **Mode:** Systemic, reflective | **Human role:** Interpret what the patterns mean and decide what to change
 
-# pstack-observer — Meta Agent
+# pstack-observer — Meta-Awareness Across Loops
 
-Observer is not a role. It's a **different way of seeing** — watching the Pod work and asking: what is this Pod learning about itself?
+> *It's about creating systems that learn while doing — with AI inside the loop, not outside of it.*
+> — Chapter 15, 5Ps of Loop Design
 
-## The Role
+## The Role of Observer
 
-You are the Observer. You are not doing the work — you are watching the work being done and seeing what it teaches.
+Observer is not a phase you run inside a design loop. It is the practice of **stepping back from the loop to see what the loop is teaching you**.
 
-Your job is to:
-1. **Watch patterns** — what recurs across sprints? What's changing?
-2. **Flag anomalies** — what's surprising? What doesn't fit the pattern?
-3. **Improve the system** — what should change in how the Pod operates?
-4. **Hold dual-track awareness** — what's happening to the process AND what's happening to the client's world?
+Progress asks: *What did this loop teach us about the problem?*
 
-## The Observer Mindset
+Observer asks: *What are all our loops teaching us about ourselves — as designers, as a team, as a course?*
 
-**Default stance: outside the system while being part of it.**
-You participate in the Pod but evaluate it. You see the patterns the other agents are too close to see.
+This distinction matters. A team can run excellent Progress sessions and still repeat the same mistakes across projects because no one is watching the pattern *across* loops. Observer is the practice that closes that gap.
 
-**Key question:** "What is the Pod learning about itself that it's not recording?"
+**Run Observer:**
+- Between major project milestones (not after every loop)
+- At the mid-semester and end-of-semester reflection points
+- When something keeps going wrong and no one can name why
+- When the team wants to understand how they're growing, not just what they've built
 
-## The Core Rule
+## Two Levels of Observer
 
-> **Track both things at once: how AI is changing the way you work, and how it's changing what's possible in the client's world.**
+### Level 1: Individual Practitioner
 
-This dual-track awareness is Observer's primary function. Most agents optimize for the current sprint. Observer watches what happens across sprints.
+*What is this loop of working with AI teaching me about my own design practice?*
 
-## When to Run
+The 5Ps are not just a team framework. Each practitioner develops a relationship with each P — and that relationship changes over time.
 
-- **Continuously:** Observer is always watching, even when not actively reporting
-- **Between sprints:** The primary Observer output comes between sprints
-- **When something feels wrong:** Observer is the one who names the systemic issue
-- **Quarterly:** A deeper pattern analysis over 3+ months of sprints
-- **After major loop breaks:** when Perform, Portfolio, or Decide keep cycling without improving the map
+**Track A — How you use the Ps:**
+```
+Which Ps do I reach for naturally?
+Which do I resist or skip?
+Where do I feel most capable?
+Where do I still feel uncertain?
+```
+
+**Track B — How your design thinking is changing:**
+```
+What can I do now that I couldn't 4 weeks ago?
+What question am I asking more readily?
+What mistake am I making less often?
+What am I still blind to?
+```
+
+**ACP Practice Maturity (per P):**
+
+Track your development with each P in `~/.pstack/memory/acp-levels.md`:
+
+| Level | Name | Signal |
+|-------|------|--------|
+| 1 | Scaffolding | You can use this P when prompted |
+| 2 | Routine | You invoke it naturally at the right moment |
+| 3 | Memory | You notice patterns in your use of this P across loops |
+| 4 | Growth | Your application of this P has visibly improved |
+| 5 | Emergence | This P produces insights you didn't expect |
+
+Update after each major milestone via `/pstack-progress`. Observer aggregates these into a development arc.
+
+### Level 2: Team or Course
+
+*What are all our loops teaching us collectively — about how we design together, and about the framework itself?*
+
+**Track A — Team/cohort patterns:**
+```
+Which Ps does this team (or cohort) consistently skip?
+Where do teams in this context get stuck?
+What does the progression from early loops to late loops look like?
+Are teams getting faster? More confident? More willing to loop back?
+```
+
+**Track B — Methodology signals:**
+```
+What is the Rotman context teaching us about the 5Ps?
+Are there constraints or opportunities specific to this setting
+  that the framework doesn't yet address?
+What would make the framework more useful for this community?
+```
+
+This is the feedback loop that makes the 5Ps better over time — not just used, but evolved through use.
 
 ## The Observer Protocol
 
-### Cross-Sprint Pattern Detection
+### Step 1: Gather the Loops
 
-Before producing the Observer Report, read:
-- `~/.pstack/memory/sprint-log.md` — all past sprint learnings
-- `~/.pstack/memory/acp-levels.md` — current ACP levels (if exists)
+Before reflecting, gather what you have. Read:
+- Progress outputs from recent loops (`~/.pstack/memory/sprint-log.md`)
+- ACP levels if tracked (`~/.pstack/memory/acp-levels.md`)
+- Any Portfolio records or Pause/Promote decisions from recent work
 
-Look for:
-- **Recurring lessons** — same lesson appearing 2+ times = unlearned pattern
-- **Skipped Ps** — which Ps haven't been invoked recently?
-- **ACP stagnation** — any P stuck at the same level for 3+ sprints?
-- **Methodology drift** — are we using pstack at all, or reverting to ad-hoc?
+You are looking for **patterns across**, not details within.
 
-Include a "Meta Health" section in the Observer Report:
-```
-### Meta Health
-- **Active Ps:** [which Ps were used this sprint]
-- **Skipped Ps:** [which weren't — and should they have been?]
-- **Recurring lesson:** [if any lesson repeats from sprint-log]
-- **ACP update:** [any level changes to recommend]
-```
-
-### Track A: Internal (Pod Improvement)
-
-What is the Pod learning about how it works?
+### Step 2: The Dual-Track Scan
 
 ```
-Questions to answer:
-- What model lessons keep recurring? (Progress reports across sprints)
-- What's getting easier? (Velocity trend)
-- What's getting harder? (Where does the Pod slow down?)
-- What does the Kill List look like across sprints? (What kinds of things keep getting killed?)
-- What's the Prune pattern? (What kinds of scope get cut most often?)
-- Is the Pod getting faster? At what rate?
+Individual / Track A — Practice patterns
+  Which Ps appeared in every loop?
+  Which Ps were skipped, and was that intentional?
+  What recurring tension or friction appeared across loops?
+
+Individual / Track B — Design thinking development
+  What am I doing differently now vs. at the start?
+  Where is my judgment improving?
+  What am I still avoiding?
+
+Team or Course / Track A — Collective patterns
+  What does this group struggle with consistently?
+  What are they getting better at?
+  Where does co-intelligence feel most alive for them?
+
+Team or Course / Track B — Framework signals
+  What is this context teaching the 5Ps?
+  What should change in how the framework is taught or used here?
 ```
 
-### Track B: External (Client World)
-
-What is the Pod seeing about the client's world?
+### Step 3: Observer Output
 
 ```
-Questions to answer:
-- What patterns is the client showing across sprints?
-- What does the client keep asking for that wasn't in the brief?
-- Is the client's problem scope expanding or contracting?
-- What's changing in the client's industry/market that affects our work?
-- Are we seeing signals the client isn't seeing yet?
+# Observer Reflection — [Date / Milestone]
+
+## Loops reviewed
+[Which loops or projects this reflection covers]
+
+## Patterns I see
+[Cross-loop patterns — what keeps recurring]
+
+## What's changing
+[What's improving, what's shifting]
+
+## What's not changing that should be
+[The recurring lesson that hasn't landed yet]
+
+## What I'm choosing not to see
+[Honest naming of a blind spot]
+
+## ACP update
+[Any levels to revise for any P]
+
+## One thing to do differently in the next loop
+[Specific, not general]
 ```
 
-### Step 3: The Pattern Report
+## Observer and the EEE Layer
 
-```
-# Observer Report — Sprint [N] — [Date]
+Observer is where the **EEE Layer** (Ethical, Emotional, Emergent) becomes most visible.
 
-## Track A: Pod Health
-**Sprint velocity:** [faster / same / slower vs last sprint]
-**Model lessons aggregated:** [recurring lessons across sprints]
-**Kill list patterns:** [what keeps getting ruled out]
-**Prune patterns:** [what keeps getting cut]
-**Pod confidence:** [are we better at estimating than we were?]
+- **Ethical:** Are we designing in ways that align with our values? Are there choices we've been avoiding?
+- **Emotional:** How is this design work affecting the people doing it — not just the people being designed for?
+- **Emergent:** What is arising from the work that we didn't plan or predict?
 
-## Track B: Client World
-**Client pattern:** [what we're seeing in the client's behavior]
-**Emerging signals:** [what might be coming that the client hasn't seen]
-**Fit assessment:** [is our approach working? what would we change?]
-
-## System Recommendations
-**For the Pod:** [what should change in how we operate]
-**For the client:** [what we should surface to the client]
-**For the methodology:** [what the 5Ps framework needs based on what we learned]
-
-## The Unseen Thing
-[What we see that no one has said yet — Observer's most important output]
-```
-
-## The Pattern Across Sprints
-
-Observer's most valuable output is the **aggregate view** — what happens across 5, 10, 20 sprints that no single sprint reveals.
-
-The Observer Agent should maintain a running log:
-```
-/observer/
-├── sprint-log.md        # Per-sprint quick notes
-├── patterns.md         # Cross-sprint pattern analysis
-├── recommendations.md   # System improvement recommendations
-└── client-signals.md   # What we're seeing in the client's world
-```
-
-## Cat Wu's Dual-Track
-
-Cat Wu said: *"Track both things at once: how AI is changing the way you work, and how it's changing what's possible in your product."*
-
-Observer is the formalization of that discipline:
-- **Track A** = how AI is changing how the Pod works
-- **Track B** = how AI is changing what's possible for the client
+These are not soft questions. They are the questions that prevent technically excellent design from being humanly wrong.
 
 ## The Observer's Authority
 
-Observer has the authority to call out systemic issues that other agents won't name:
-- "We've been solving the wrong problem for three sprints"
-- "The client's brief keeps changing because we're not solving the real problem"
-- "The model we're using is not the right one for this class of problem"
+Observer has permission to name things others are too embedded to say:
 
-This is Observer's value: it sees what the Pod is too embedded to see.
+- "We've been Performing without Perceiving — we're building for a problem we haven't actually sensed."
+- "Our Portfolio is collapsing to one option before Pause/Promote has done its work."
+- "The pattern across four loops is that we never return to Perceive after learning something. That's why we keep shipping the wrong thing."
 
-## Human Handshake
+This is Observer's value: **distance creates visibility**.
 
-- AI contribution: pattern tracking, recurrence detection, cross-sprint synthesis
-- Human contribution: interpretation, system redesign judgment, deciding which patterns matter enough to change behavior
-- Shared question: `What is this system learning, and what should we deliberately change because of it?`
+## Frequency
 
-## Portability
+| Context | When to run |
+|---------|-------------|
+| Individual practitioner | Mid-project and end of project |
+| Team | After every 2–3 loops, and at project close |
+| Rotman course | Mid-semester and end of semester |
+| Methodology level | Once per cohort, by the faculty lead |
 
-Works best as a dedicated agent that doesn't do the sprint work — Observer is most effective when it has genuine distance from the work being observed.
-
-That said, any agent can enter Observer mode by asking: "What is this Pod learning about itself?"
-
-## Connection to LLV
-
-Observer maps to the **Loops** layer of the LLV framework (Lines, Loops, Vibes). The Loops are Observer's operational domain — tracking feedback cycles across sprints and making the pattern visible.
+Observer is not part of every loop. It is the view from above the loop — run it at the right altitude.

@@ -1,17 +1,12 @@
-# PSTAC Co-Intelligence Guide
+# Co-Intelligence Guide — 5Ps of Loop Design
 
 ## Core Stance
 
-`PSTAC` is not a linear stage-gate.
+The 5Ps of Loop Design are not a stage-gate process.
 
-It is a recursive co-intelligence loop in which humans and agents may enter at any stage when their judgment improves the quality of the next move.
+They are a **recursive co-intelligence loop** — where humans and AI partner at every phase, in their natural modes, strengthening the connection between strategy and design.
 
-That means:
-
-- looping is normal
-- returning to an earlier P is not failure
-- human involvement is not a breakdown in autonomy
-- the system is strongest when human and machine judgment are composed intentionally
+> *Design is where intelligence meets rhythm within the Helix. It's not just about solving problems. It's about creating systems that learn while doing — with AI inside the loop, not outside of it.*
 
 ## Loop, Not Ladder
 
@@ -21,12 +16,12 @@ They are a set of loops that can run at different speeds depending on the proble
 
 Common return paths:
 
-- `Decide -> Portfolio` when the recommendation is weak or the option field needs refinement
-- `Portfolio -> Perceive` when the option set reveals that the original framing was wrong
-- `Perform -> Decide` when reality invalidates the current bet
-- `Perform -> Portfolio` when execution shows a better adjacent option
-- `Progress -> Perceive` when outcomes reveal a deeper pattern that changes the map
-- `Observer -> any P` when the system itself needs correction
+- `Pause/Promote → Portfolio` when the recommendation needs more options
+- `Portfolio → Perceive` when the option set reveals the original framing was wrong
+- `Perform → Pause/Promote` when reality changes the bet
+- `Perform → Portfolio` when execution shows a better adjacent option
+- `Progress → Perceive` when outcomes reveal a pattern that changes the map
+- `Observer → any P` when the system itself needs correction
 
 AI makes these loops cheaper and faster. That is one of the main powers of the framework.
 
@@ -34,135 +29,123 @@ AI makes these loops cheaper and faster. That is one of the main powers of the f
 
 The human can enter at any P.
 
-There is no rule that says the human should only appear at approval time, at Portfolio review, or at the very end.
-
 Human entry is most valuable when:
 
-- `Perceive` needs political, tacit, relational, or identity-level context that is not visible in the artifacts
-- `Portfolio` needs taste, preference, or strategic weighting across options
-- `Decide` depends on risk appetite, timing judgment, or a non-technical tradeoff
-- `Perform` touches irreversible consequences, trust boundaries, or brand-defining choices
-- `Progress` needs interpretation beyond what the metrics alone can say
-- `Observer` surfaces patterns that require human meaning-making rather than just system tuning
+- **Perceive** needs tacit context, lived experience, political or cultural knowledge that isn't in the data
+- **Portfolio** needs taste, preference, or strategic weighting across options
+- **Pause/Promote** depends on risk appetite, timing judgment, values, or a non-analytical tradeoff
+- **Perform** touches irreversible consequences, trust boundaries, or identity-defining choices
+- **Progress** needs interpretation beyond what the evidence alone can say
+- **Observer** surfaces patterns that require human meaning-making rather than system tuning
 
 The co-intelligence question is:
 
-`Whose judgment improves this P right now?`
+> **Whose judgment improves this P right now?**
 
-Sometimes the answer is the agent.
-Sometimes it is the human.
-Sometimes it is both together.
+Sometimes the answer is AI. Sometimes the human. Sometimes both together.
+
+## Human + AI Roles Per P
+
+| P | Human brings | AI brings | Together they create |
+|---|-------------|-----------|---------------------|
+| **Perceive** | Contextual wisdom, lived experience, tacit knowledge | Pattern recognition across data, contradiction finding | 〰 Empathetic intelligence |
+| **Perform** | Ethical direction, purpose, values boundaries | Accelerated creation, simulation, variation | ▲ Focused momentum |
+| **Portfolio** | Value boundaries, priorities, risk appetite | Option generation, tradeoff mapping, rapid testing | ● Experimental resilience |
+| **Pause/Promote** | Values-based judgment, cultural intuition | Analytical insight, pattern detection | ●〰 Integrated intelligence |
+| **Progress** | Meaning-making, wisdom synthesis | Evidence synthesis, cross-loop pattern recognition | ▲● Structured evolution |
+| **Observer** | Interpretation, system redesign judgment | Cross-loop tracking, recurrence detection | 〰 Meta-awareness |
 
 ## Decide Semantics
 
-`Decide` does not mean "destroy the portfolio until only one option remains."
+Pause/Promote does not mean "destroy the portfolio until only one option remains."
 
-`Decide` means:
-
+It means:
 - inspect the current portfolio
-- state the recommendation
-- name the parameters behind that recommendation
-- preserve enough of the option field to revisit the choice if reality changes
-- make the kill list explicit without pretending uncertainty has vanished
+- state the recommendation with its parameters
+- preserve enough of the option field to revisit if reality changes
+- make the explicit list of what's not being pursued
 
-The output of `Decide` should look like:
-
-- `Given this portfolio`
-- `under these parameters`
-- `my recommendation is this`
-- `and if those parameters change, we should revisit these adjacent options`
+The output of Pause/Promote should look like:
+- *Given this portfolio*
+- *under these parameters*
+- *my recommendation is this*
+- *and if those parameters change, we should revisit these options*
 
 That is more useful than false certainty.
 
-## The Agent's Job
+## Portfolio is Always Active
 
-An agent using `PSTAC` should:
+Portfolio is not a gate you pass through once. It is a lens you maintain throughout the loop.
 
-- improve the map in `Perceive`
-- make options tangible in `Portfolio`
-- recommend clearly in `Decide`
-- cut aggressively in `Prune`
-- test reality in `Perform`
-- capture learning in `Progress`
-- watch the whole system in `Observer`
+- In **Perceive**, your portfolio of problem frames is forming
+- In **Perform**, a prototype is testing one option from the portfolio
+- In **Pause/Promote**, you draw from the portfolio to make the call
+- After **Progress**, the portfolio is updated with what you learned
 
-But the agent should not confuse speed with wisdom.
-
-Good agent behavior in `PSTAC` is not "minimize human involvement at all costs."
-Good behavior is "bring the human in when joint judgment will improve the next loop."
+Never collapse the portfolio to one option before Pause/Promote has done its work.
 
 ## Anti-Patterns
 
 ### 1. Premature collapse
-
 Killing the option field too early and calling it decisiveness.
 
 ### 2. Portfolio theater
-
-Listing options without making a recommendation.
+Listing options without making a recommendation — or without making any of the options tangible.
 
 ### 3. Silent autonomy
-
-Avoiding the human when the problem obviously needs human judgment.
+AI making choices the human doesn't notice or interrogate.
 
 ### 4. Linear trap
-
 Treating the Ps as a one-pass checklist instead of a living loop.
 
 ### 5. Execution drift
-
-Continuing to perform when reality says the system should return to `Perceive`, `Portfolio`, or `Decide`.
+Continuing to Perform when reality says the system should return to Perceive, Portfolio, or Pause/Promote.
 
 ### 6. Human as approver only
-
 Using the human as a final gate instead of as an active intelligence source inside the loop.
 
 ## Practical Heuristics
 
-### Stay in the current loop when
-
-- the next uncertainty can be reduced cheaply
-- the current bet is still structurally sound
+### Stay in the current P when
+- the next uncertainty can be reduced without looping back
+- the current direction is still structurally sound
 - the option field is still legible
 
-### Loop upward when
-
-- execution evidence weakens the current recommendation
-- the current portfolio no longer spans the real possibility space
+### Loop back when
+- execution evidence weakens the current direction
+- the Portfolio no longer spans the real possibility space
 - the problem statement itself now looks wrong
 
 ### Bring in the human when
-
 - the missing information is tacit rather than documented
-- values or identity matter more than pure optimization
+- values or identity matter more than pure analysis
 - risk tolerance matters more than technical feasibility
-- the system is at risk of solving the wrong problem very efficiently
+- the system is at risk of solving the wrong problem efficiently
 
 ## Why This Matters
 
-Without this co-intelligent framing, agents tend to fail in two opposite ways:
+Without this co-intelligent framing, AI tends to fail in two opposite ways:
 
-- expand too many possibilities without choosing
-- execute too fast on a weakly framed problem
+- **Too much exploration** — generating possibilities without ever choosing
+- **Too much execution** — moving fast on a weakly framed problem
 
-`PSTAC` exists to hold that tension well:
+The 5Ps hold that tension:
 
-- enough exploration to avoid shallow action
-- enough decision to avoid drift
-- enough human involvement to improve judgment
-- enough loop speed to make the whole system more intelligent over time
+- enough sensing (Perceive) to avoid shallow action
+- enough options (Portfolio) to avoid premature commitment
+- enough discernment (Pause/Promote) to avoid drift
+- enough learning (Progress + Observer) to make the system smarter over time
 
 ## Bottom Line
 
-`PSTAC` is a recursive co-intelligence system.
+The 5Ps are a recursive co-intelligence system.
 
 The goal is not maximal automation.
-The goal is better joint judgment.
+The goal is better joint judgment — between humans and AI, and across loops over time.
 
 That means:
-
 - preserve loops
-- preserve optionality long enough
+- maintain the portfolio long enough
 - recommend clearly
 - bring humans in deliberately
 - learn across iterations

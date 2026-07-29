@@ -1,153 +1,142 @@
 ---
 name: pstack-portfolio
 description: >-
-  Portfolio phase of the 5Ps AI Exponential Framework. The Portfolio Agent
-  designs anti-fragile option fields and live possibilities. Use when you need
-  options, not documents. Triggered by: "portfolio", "build options",
-  "what are the paths", "prototype this", "show me alternatives",
-  "anti-fragility", "the Portfolio phase".
+  Portfolio phase of the 5Ps of Loop Design. Designing for Anti-Fragility.
+  Adaptive resilience — maintaining multiple pathways forward.
+  Portfolio is always active throughout the loop, not a single gate.
+  Triggered by: "portfolio", "what are our options", "map the paths",
+  "always have options", "anti-fragility", "what bets are alive", "Portfolio phase".
 ---
 
-> **Rhythm:** ● Loops | **Tempo:** 60Hz (iterative exploration) | **Cognitive Mode:** Generative, experimental
+> **Rhythm:** ● Adaptive resilience | **Mode:** Generative, experimental | **Human role:** Set value boundaries, priorities, and what options to keep alive
 
-# pstack-portfolio — Portfolio Agent
+# pstack-portfolio — Designing for Anti-Fragility
 
-The Portfolio phase is not an options document. It's **anti-fragile portfolio design** — a live field of possibilities that learns, adapts, and preserves optionality.
+> *This is where we maintain strategic options. Humans set value boundaries and priorities, while AI generates and tests variations. Together, they create experimental resilience through meaningful diversity.*
+> — Chapter 15, 5Ps of Loop Design
 
-## The Role
+## The Role of Portfolio
 
-You are the Portfolio Agent. Your job is to:
-1. **Generate** real paths forward (not theoretical options)
-2. **Prototype** the most promising ones — even rough, even 1-day builds
-3. **Validate** quickly — does this actually work or does it fall apart on contact with reality?
-4. **Design for anti-fragility** — keep the option field strong enough to learn from wins and failures
+Portfolio is **adaptive resilience** — the practice of maintaining multiple pathways forward so the team stays capable of learning from both wins and failures.
 
-## The Portfolio Mindset
+A team with only one option is fragile. When that option fails, everything stops. A team with a portfolio of live options is **anti-fragile** — failures teach, winners can be amplified, and the system becomes harder to break through a single wrong bet.
 
-**Default stance: portfolio thinker, not pitch writer.**
-Every option should be a thing you can show, not a thing you can describe. The goal is not one perfect plan; it is a resilient field of options.
+**Key principle:** Always Have Options.
 
-**Key question:** "What would this look like if it worked?"
+Not options as a hedge against commitment — options as a sign of strategic maturity. Knowing what you're *not* pursuing is as important as knowing what you are.
 
-Portfolio is not a waiting room before Decide.
-It is a live option field that should stay visible long enough for good judgment.
+## Portfolio is Always Active
 
-In the book's framing, portfolio means designing systems that can hold safe bets, bold bets, and hybrids without losing coherence.
+Portfolio is not a gate you pass through once between Perform and Pause/Promote. It is a **continuous lens** you maintain throughout the entire loop:
 
-Short example:
-- 70% safe bets
-- 20% adaptive plays
-- 10% exploratory moves
+- In **Perceive**, your portfolio of problem frames is forming
+- In **Perform**, a prototype is testing one option from the portfolio
+- In **Pause/Promote**, you draw from the portfolio to make the call
+- After **Progress**, the portfolio is updated with what you learned
 
-The point is not abundance for its own sake.
-It is optionality with discipline.
+Never collapse the portfolio to one option before Pause/Promote has done its work.
 
-Portfolio is where the system becomes less fragile:
-- failures can still teach
-- winners can be amplified
-- the whole system becomes harder to break through a single wrong bet
+## Human + AI in this Phase
 
-## The Core Rule
+| Who | What they bring |
+|-----|----------------|
+| **Human** | Value boundaries, strategic priorities, risk appetite, what options feel worth keeping alive |
+| **AI** | Generates variations rapidly, tests assumptions at scale, maps option space, identifies tradeoffs |
+| **Together** | ● Experimental resilience — meaningful diversity that learns |
 
-> **Prototype before you present. If you can't prototype it, it's not ready.**
+The co-intelligence question for Portfolio: *Which pathways are worth keeping alive, and under what conditions would we revisit each one?*
 
-This is the operational shift from traditional strategy consulting. Instead of presenting options as documents, you present options as working artifacts.
+## The Portfolio Shape
 
-## When to Run
+A healthy portfolio spans a range:
 
-- After Perceive has identified the real problem
-- When a decision point has been reached and you need to know which path to take
-- When the client says "we have three options" — you turn those into three prototypes
-- When you're about to commit significant resources to one direction
-- When execution evidence shows the current bet may need adjacent options again
+```
+Safe bets (~70%):   Options with high confidence and lower upside
+                    "We know this works. The question is whether it's enough."
+
+Adaptive plays (~20%): Options that respond to what we're learning
+                    "This path makes more sense as we learn more."
+
+Exploratory moves (~10%): Options that test assumptions we haven't validated
+                    "We don't know if this works, but we'd regret not finding out."
+```
+
+These proportions flex with context. The point is not the numbers — it's the discipline of maintaining range.
 
 ## The Portfolio Protocol
 
-### Step 1: Define the Decision
+### Step 1: Map the Option Space
+
+Before converging on a direction, map what's possible.
 
 ```
-What decision needs to be made?
-What's the timeframe?
-What does success look like?
-What are the hard constraints? (budget, time, tech, politics)
+What are the distinct ways we could approach this challenge?
+For each option:
+  - What does it look like?
+  - What assumption does it rest on?
+  - What would we have to believe for this to be right?
+  - What would prove it wrong?
 ```
 
-### Step 2: Generate 3 Real Options
+### Step 2: Make Options Tangible
 
-**Option 1: The Safe Play**
-- What's the conservative path that definitely works?
-- Prototype: the thing that proves we can do the basics
-
-**Option 2: The Bold Bet**
-- What's the high-upside option that might not work?
-- Prototype: the thing that tests the risky assumption
-
-**Option 3: The Hybrid**
-- What's the middle path that takes the best of both?
-- Prototype: the thing that combines without compromising
-
-### Step 3: Build Prototypes (Time-boxed)
-
-Each prototype gets the same time budget:
-- **Day 1:** Core logic / working demo (not slides)
-- **Day 2:** Fix what broke, prove it handles the edge case
-- **No Day 3** — the point is speed, not polish
+Options that remain as descriptions are not real options — they're hypotheses. For each serious direction, make it visible:
 
 ```
-Prototype format:
-├── What it does (one sentence)
-├── What assumption it tests
-├── What happens if it works
-├── What happens if it fails
-└── Link / access method
+Option: [Name]
+Expression: [What does it look like? Even a rough sketch, scenario, or concept]
+Core assumption: [The thing that has to be true]
+If it works: [What happens]
+If it fails: [What we learn]
+Status: [active / testing via Perform / on hold / archived]
 ```
 
-### Step 4: The Portfolio Review
+### Step 3: Maintain the Kill List
 
-Present the prototypes. The decision-maker (Strategy Agent / human) reviews the live portfolio and recommends the next bet from it.
+Knowing what you're *not* pursuing is as important as knowing what you are. Options that remain in permanent limbo drain attention. Say clearly what's paused and why.
 
-Format:
 ```
-# Portfolio Output — [Date]
-
-## Decision Required
-[What we're choosing between and why now]
-
-## Option 1: [Name]
-- **What it is:** [one sentence]
-- **Assumption tested:** [the risky thing this proves]
-- **If it works:** [consequence]
-- **If it fails:** [consequence]
-- **Prototype:** [link or access]
-
-## Option 2: [Name]
-[same structure]
-
-## Option 3: [Name]
-[same structure]
-
-## Recommended Kill
-[Which option should definitely be dropped and why — say this first]
-
-## Recommendation
-[Your honest view — which has the best risk/reward]
+What are we choosing NOT to pursue right now?
+Why? (conditions, constraints, or learning that ruled it out)
+Under what conditions would we revisit it?
 ```
 
-## The Prune Hook
+### Step 4: Portfolio Review Output
 
-Portfolio and Prune are tightly linked. After generating 3 options, **run pstack-prune before building prototypes** — does the scope of each option make sense? Are we trying to do too much in one option?
+```
+# Portfolio — [Date]
 
-## Human Handshake
+## Active Options
+[Each option with expression, assumption, and status]
 
-- AI contribution: option generation, rapid prototyping, contrast building, scenario expansion
-- Human contribution: taste, weighting, strategic preference, risk appetite, contextual fit
-- Shared question: `Which of these options deserves more attention now, and which should remain alive for later loops?`
+## What we're testing right now
+[Which option is in Perform and what we're looking for]
 
-## Portability
+## Not pursuing (and why)
+[The kill list — options paused with stated reasoning]
 
-Works with any agent that can:
-- Build (code, write, prototype — Perform skill handles the mechanics)
-- Access shared context (files, memory)
-- Present outputs clearly
+## What would change the portfolio
+[What new information would cause us to revisit a paused option]
+```
 
-The Options Agent doesn't need to be the Build Agent. Split the work: Options Agent generates and assigns prototypes, Build Agent executes them.
+## The Prune Decision (integrated)
+
+The former "Prune" skill is now part of Portfolio. Before advancing any option to Perform, ask:
+
+```
+Is the scope of this option too large to test quickly?
+What would we cut if we had only 2 days?
+Are we solving the right problem with this option?
+```
+
+## Practice Maturity (ACP)
+
+Track your Portfolio practice in `~/.pstack/memory/acp-levels.md`:
+
+| Level | Signal |
+|-------|--------|
+| 1 | You can list 2–3 options when asked |
+| 2 | You naturally maintain a portfolio view instead of locking to one path |
+| 3 | Your options are expressed as tangible artifacts, not just descriptions |
+| 4 | You actively update the portfolio as Perform teaches you things |
+| 5 | Portfolio produces unexpected options that come from the combination of what you've learned |

@@ -1,171 +1,166 @@
 ---
 name: pstack-progress
 description: >-
-  Progress phase of the 5Ps AI Exponential Framework. The Learning Systems
-  Agent tracks, measures, and builds the next loop's capability. Use after a
-  build or sprint. Triggered by: "progress", "learn", "what did we learn",
-  "eval", "evaluate", "learning systems", "track this", "measure".
+  Progress phase of the 5Ps of Loop Design. Build Learning Systems.
+  Systematic learning — converting experience into evolutionary capability.
+  Use after completing a design loop or reaching a major milestone.
+  Triggered by: "progress", "what did we learn", "learning debrief",
+  "capture learning", "build the system", "feed the next loop", "Progress phase".
 ---
 
-> **Rhythm:** ▲● Lines+Loops | **Tempo:** 50Hz (structured reflection) | **Cognitive Mode:** Analytical, iterative
+> **Rhythm:** ▲● Systematic learning | **Mode:** Reflective, analytical | **Human role:** Synthesise meaning, decide what changes
 
-# pstack-progress — Learning Systems Agent
+# pstack-progress — Build Learning Systems
 
-The Progress phase is not a retrospective. It's **learning-system design** — structured capture of what changed, what was learned, and how the next loop should get smarter.
+> *This is where learning becomes advancement. Humans synthesise meaning and wisdom from experience, while AI accelerates pattern recognition across iterations. Together, they create structured evolution that transforms insights into organisational capability.*
+> — Chapter 15, 5Ps of Loop Design
 
-## The Role
+## The Role of Progress
 
-You are the Learning Systems Agent. Your job is to:
-1. **Track** — what happened vs what we expected?
-2. **Measure** — did it work? How do we know?
-3. **Capture** — what did we learn that we didn't know before?
-4. **Feed back** — what should change in the next sprint?
+Progress is **systematic learning** — the practice of converting what happened in a design loop into something that makes the next loop smarter.
 
-## The Progress Mindset
+It is not a retrospective. Not a post-mortem. Not a scoring exercise.
 
-**Default stance: advancement architect.**
-What happened is more important than what we planned. If the plan was wrong, say so. The goal is not just evaluation; it is building improvement capacity.
+It is the practice of **building learning into the system**, so that each loop genuinely advances capability — not just in the problem space, but in how the team thinks and designs.
 
-**Key question:** "What do we know now that we didn't know before this sprint?"
+**Key principle:** Build Learning Systems.
 
-## The Core Rule
+The goal is not to produce insights. It is to turn insights into structure that survives into the next loop.
 
-> **Every sprint ends with a model lesson.**
+## Human + AI in this Phase
 
-Not a project retrospective. Not a post-mortem that leads to action items no one does. A **structured capture** of what the AI learned about the problem, the model, and itself, so the system gets smarter through use.
+| Who | What they bring |
+|-----|----------------|
+| **Human** | Synthesise meaning, interpret what matters, decide what to carry forward |
+| **AI** | Pattern recognition across the loop, deviation analysis, surfacing what was unexpected |
+| **Together** | ▲● Structured evolution — insights become organisational capability |
 
-Short example:
-- a team does not just log what happened
-- it builds a learning architecture so each interaction, result, and failure improves the next loop
+The co-intelligence question for Progress: *What do these outcomes mean for how we work next — not just what they mean about what we built?*
 
-This is the book's deeper point:
-- not iteration alone
-- but building improvement capacity
-- not just improvement events
-- but systems that get smarter through use
+## Three Kinds of Learning
 
-## When to Run
+Progress captures learning across three layers:
 
-- End of every sprint (1-2 weeks)
-- When a major decision point is reached
-- When something unexpected happened (positive or negative)
-- Before starting a new sprint — the Progress of the last sprint is the Perceive of the next
-- Any time execution evidence suggests the current portfolio or framing should change
+**Design learning:** What did we learn about the people and the problem?
+```
+Was our Perceive accurate? What did we miss?
+Did the prototypes from Perform reveal new needs?
+Did our Portfolio options span the real possibility space?
+```
+
+**Process learning:** What did we learn about how we design together?
+```
+Where did the loop flow well? Where did it get stuck?
+Which P felt hardest? Which felt most generative?
+What would we do differently next time?
+```
+
+**AI + Human learning:** What did we learn about how human and machine intelligence combined?
+```
+Where did AI accelerate us in useful ways?
+Where did AI lead us somewhere the human had to correct?
+Where did the combination produce something neither could alone?
+```
 
 ## The Progress Protocol
 
-### Step 1: What Did We Expect?
+### Step 1: Gather the Loop
 
-Pull from the Decide phase logs:
+Before reflecting, gather what you produced:
+- The Perceive output (what problem we sensed)
+- The Portfolio (what options were alive)
+- The Perform output (what was built or prototyped)
+- The Pause/Promote decision (what was chosen and why)
+
+### Step 2: What Happened vs. What We Expected
+
 ```
-What did we bet on?
-What assumption were we testing?
+What did we bet on? (from Pause/Promote)
 What did we expect to happen?
+What actually happened?
+What surprised us — positively or negatively?
+What evidence tells us this?
 ```
 
-### Step 2: What Actually Happened?
+### Step 3: Capture Learning Across the Three Layers
 
-Be specific and honest:
 ```
-Outcome: [worked / partially worked / failed / unexpected outcome]
-Evidence: [what data, observation, or test result tells us this]
-Deviation from expectation: [what surprised us]
-```
+Design learning:
+  [What we now know about the people, context, and problem]
 
-### Step 3: What Did We Learn?
+Process learning:
+  [What we'd do differently in the next loop]
 
-The key output. Three categories:
-
-**Model Lesson:** What did we learn about what the AI can and can't do?
-```
-[Example: "The model can now handle 3-hop relational queries that required custom SQL last quarter. 
-We didn't know this. Testing it directly revealed it works."]
+AI + Human learning:
+  [Where the combination worked, where it didn't]
 ```
 
-**Problem Lesson:** What did we learn about the problem we're solving?
-```
-[Example: "The client's data quality issue is upstream of where we were looking. 
-The symptom manifests in reporting but the cause is in data entry. We had the wrong lever."]
-```
+### Step 4: Feed the Next Perceive
 
-**Process Lesson:** What did we learn about how we work?
-```
-[Example: "We spent 2 days building something we killed in 20 minutes once we saw the prototype. 
-Next time: build the prototype first, no matter how rough."]
-```
+The most important output of Progress is what it gives to the next loop's Perceive. Record:
 
-### Step 4: What Changes?
-
-Feed directly into the next sprint's Perceive:
 ```
-For next sprint:
-→ Start with: [the model lesson that changes how we approach this]
+For next loop:
+→ Start with: [what this loop revealed that reframes the problem]
 → Do differently: [the process lesson]
-→ Kill immediately: [any assumption from this sprint that failed]
-→ Investigate: [new questions that emerged]
+→ Watch for: [the signal that would tell us we're on the right track]
+→ Keep alive in Portfolio: [options worth carrying forward]
 ```
+
+### Step 5: Update the Sprint Log
+
+Append to `~/.pstack/memory/sprint-log.md`:
+
+```
+### Loop: [Project / Date]
+**What we designed for:** [brief statement]
+**What happened:** [outcome]
+**Key learning:** [the one thing worth remembering]
+**For next loop:** [what changes]
+```
+
+This log is what Observer reads to detect patterns across loops. Without it, Observer has no material to work with.
 
 ## The Progress Report Format
 
 ```
-# Progress Report — Sprint [N] — [Date]
+# Progress Report — [Project / Date]
 
-## What We Were Testing
-[Brief — what decision this sprint was informing]
+## What We Designed For
+[The problem Perceive identified and the direction Pause/Promote chose]
 
 ## What Happened
-[Outcome + evidence]
+[Outcome — honest, specific, evidence-based]
 
-## Model Lesson
-[What we learned about AI capability]
+## Design Learning
+[What we know about the problem space now]
 
-## Problem Lesson  
-[What we learned about the problem]
+## Process Learning
+[What we'd do differently]
 
-## Process Lesson
-[What we learned about how we work]
+## AI + Human Learning
+[Where the combination was strong / where it needed correction]
 
-## Kill List
-[Assumptions that didn't survive contact with reality]
-
-## For Next Sprint
-[How this changes what we do next]
+## For Next Loop
+[How this changes the starting point]
 ```
 
-## The Observer Feed
+## When Progress Should Loop Back
 
-Progress feeds two places:
-1. **Next sprint's Perceive** — the lessons inform the next cycle
-2. **Observer Agent** — the aggregate of all Progress reports is what Observer watches for patterns
+- If the outcome reveals the original Perceive framing was wrong → surface for next **Perceive**
+- If a paused Portfolio option now looks more viable → update the **Portfolio**
+- If the design didn't serve the people well → the failure is not the end; it is the beginning of the next loop
 
-## Human Handshake
+The loop should never feel like it "failed." A loop that produced clear learning advanced the system, even if the artifact didn't land.
 
-- AI contribution: evidence synthesis, deviation analysis, cross-run pattern spotting
-- Human contribution: meaning-making, redefining success, interpreting what the evidence should change
-- Shared question: `What do these outcomes mean for the next loop, not just for this sprint's scorecard?`
+## Practice Maturity (ACP)
 
-## Portability
+Track your Progress practice in `~/.pstack/memory/acp-levels.md`:
 
-Works with any agent that can:
-- Read previous sprint outputs (Decide, Perform logs)
-- Evaluate outcomes against expectations
-- Capture structured notes
-
-The Learn Agent doesn't need to be a different agent than the Build Agent. Many Pods have the same agent cycle through Perform and Progress.
-
-## Cross-Sprint Memory
-
-After completing the Progress report, append key learnings to the persistent sprint log:
-
-**File:** `~/.pstack/memory/sprint-log.md` (agent-neutral location; works across Claude Code, Codex, etc.)
-
-Create this file if it doesn't exist. Append:
-```
-### Sprint: [Date]
-**Goal:** [what we set out to do]
-**Outcome:** [what actually happened]
-**Key lesson:** [the one thing worth remembering]
-**Pattern:** [if this connects to a previous sprint lesson, note it]
-```
-
-This file is read by `pstack-observer` to detect patterns across sprints.
+| Level | Signal |
+|-------|--------|
+| 1 | You can answer "what did we learn?" when asked |
+| 2 | You naturally capture learning across all three layers |
+| 3 | Your Progress consistently changes the starting point of the next Perceive |
+| 4 | The sprint log shows genuine evolution across loops |
+| 5 | Progress produces learning that other teams in the course benefit from |

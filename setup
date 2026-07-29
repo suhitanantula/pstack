@@ -10,11 +10,9 @@ BIN_DIR="$HOME/.local/bin"
 SKILLS=(
   pstack
   pstack-perceive
+  pstack-perform
   pstack-portfolio
   pstack-decide
-  pstack-prune
-  pstack-perform
-  pstack-artisan
   pstack-progress
   pstack-observer
   pstack-upgrade
@@ -52,15 +50,13 @@ mkdir -p "$HOME/.pstack"
 
 echo ""
 echo "pstack ready. Available skills:"
-echo "  /pstack              — 5Ps overview and sprint runner"
-echo "  /pstack-perceive     — Research Agent"
-echo "  /pstack-portfolio    — Options Agent (build 3 prototypes)"
-echo "  /pstack-decide       — Strategy Agent"
-echo "  /pstack-prune        — Scope discipline"
-echo "  /pstack-perform      — Build Agent"
-echo "  /pstack-artisan      — Design/Quality Agent"
-echo "  /pstack-progress     — Learn Agent"
-echo "  /pstack-observer     — Meta Agent"
+echo "  /pstack              — 5Ps of Loop Design overview"
+echo "  /pstack-perceive     — Perceive: Never Forget the People"
+echo "  /pstack-perform      — Perform: Move with Intention"
+echo "  /pstack-portfolio    — Portfolio: Designing for Anti-Fragility"
+echo "  /pstack-decide       — Pause/Promote: Choose What Matters"
+echo "  /pstack-progress     — Progress: Build Learning Systems"
+echo "  /pstack-observer     — Observer: Meta-awareness across loops"
 echo "  /pstack-upgrade      — Self-updater"
 echo ""
 echo "CLI:"

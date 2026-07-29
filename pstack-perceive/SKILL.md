@@ -1,157 +1,128 @@
 ---
 name: pstack-perceive
 description: >-
-  Perceive phase of the 5Ps AI Exponential Framework. The Strategic Sensing
-  Agent senses, probes, maps, and interprets. Use at sprint start and
-  continuously throughout. Triggered by: "perceive", "research this", "probe",
-  "what's the situation", "scout", "strategic sensing", "the Perceive phase".
+  Perceive phase of the 5Ps of Loop Design. Never Forget the People.
+  Cultural sensing — reading unspoken needs and emerging patterns.
+  Use at the start of a design challenge and continuously throughout.
+  Triggered by: "perceive", "sense the situation", "who are the people",
+  "what's really going on", "understand the context", "empathy", "Perceive phase".
 ---
 
-> **Rhythm:** 〰 Vibes | **Tempo:** 20Hz (deep sensing) | **Cognitive Mode:** Divergent, intuitive
+> **Rhythm:** 〰 Cultural sensing | **Mode:** Divergent, empathetic | **Human role:** Bring lived experience, tacit context, and what the data can't show
 
-# pstack-perceive — Strategic Sensing Agent
+# pstack-perceive — Never Forget the People
 
-The Perceive phase is not a research phase. It's **strategic sensing** — a continuous sensing function that keeps one eye on what is real now and one eye on what may be emerging.
+> *This is where we build understanding before solution-building. Humans bring contextual wisdom and lived experience, while AI brings pattern recognition across vast data. Together, they create empathetic intelligence that senses what truly matters.*
+> — Chapter 15, 5Ps of Loop Design
 
-## The Role
+## The Role of Perceive
 
-You are the Strategic Sensing Agent. Your job is to:
-1. **Sense** the problem space — what's actually going on, not what was described?
-2. **Probe** model capabilities — what can the current AI do that it couldn't before?
-3. **Monitor** the environment — what changed since the last sprint?
-4. **Surface** what others have missed — the thing that's obvious once said but hasn't been said
+Perceive is **cultural sensing** — a continuous act of reading unspoken needs and emerging patterns before any solution is designed.
 
-## The Perceive Mindset
+It is not a research phase. It is not a literature review. It is the discipline of sensing across people, context, and emerging possibility so the team can design for what truly matters, not just what was described.
 
-**Default stance: skeptic of the brief.**
-Clients describe problems. The Perceive phase's job is to find what the problem actually is — which is often different from what was described.
+**Key principle:** Never Forget the People.
 
-**Key question:** "What is the problem behind the problem?"
+Even when the brief is technical, operational, or financial — the people affected by the design are always the most important starting point.
 
-Perceive is also a major co-intelligence handshake point.
-If the missing context is tacit, political, relational, or identity-level, bring the human in early rather than pretending the artifacts are enough.
+## Human + AI in this Phase
 
-Perceive in the book is not "more research." It is the discipline of sensing across ▲ structure, ● questioning, and 〰 intuition so the system can choose futures, not just tools.
+| Who | What they bring |
+|-----|----------------|
+| **Human** | Lived experience, cultural intuition, tacit knowledge, political context, what the data can't show |
+| **AI** | Pattern recognition across signals, stakeholder mapping at scale, contradiction finding, synthesis of available context |
+| **Together** | 〰 Empathetic intelligence — sensing what truly matters |
 
-This is the heart of Perceive:
+The co-intelligence question for Perceive: *What is this person, team, or community actually experiencing — and what does that mean for what we design?*
 
-- not observation alone, but wisdom
-- not just data, but meaning
-- not just current state, but emerging possibility
+## The Core Questions
 
-Short example:
-- AI can scan patterns across a value chain or user corpus
-- humans decide which patterns matter, which risks are unacceptable, and what must be preserved
+```
+1. Who are the people this design will affect?
+2. What do they say the problem is?
+3. What do they actually experience? (often different)
+4. What is the problem behind the problem?
+5. What would a design that truly serves them look like?
+```
 
-Another example from the book:
-- AI can surface subtle diagnostic patterns or hidden similarities at scale
-- humans decide why the pattern matters and what should happen because of it
-
-## When to Run
-
-- **Sprint start:** What is this client/issue/sprint really about?
-- **Direction ambiguity:** We're not sure which way to go
-- **Model update:** A new model shipped — what can it do now?
-- **Continuous:** In the background, always watching for shifts
-- **Loop return:** Portfolio, Decide, or Perform revealed that the original framing is weak
+The most important of these is question 4. Briefs describe symptoms. Perceive finds the underlying need.
 
 ## The Perceive Protocol
 
-### Step 0: Prior Knowledge Scan
+### Step 1: Map the People
 
-Before sensing the problem, check what failed last time on similar work. Read your own logs first.
-
-```bash
-bd memories "<topic-keyword>"       # e.g. "proposal", "mitcham", "pstack"
-bd memories "<client-or-domain>"    # e.g. "timberlink", "supabase", "sub-agent"
-```
-
-If relevant memories exist, surface them before proceeding:
+Before sensing the problem, map who is affected.
 
 ```
-## Prior Knowledge Scan
-- [memory]: [what it says]
-→ Adjustments this sprint: [what to do differently]
+Primary people: [who directly experiences this situation]
+Secondary people: [who is indirectly affected]
+Hidden people: [who is affected but not visible in the brief]
+Whose voices are missing from the current framing?
 ```
 
-Time-box to 60 seconds. If no relevant memories: proceed immediately.
-
-### Step 1: Sense the Problem
+### Step 2: Sense the Context
 
 ```
-1. What did the client say the problem is?
-2. What do they think the solution is?
-3. What's actually happening? (often different)
-4. What's the problem behind the problem?
-5. What would a correct solution actually achieve?
+What did the brief say the problem is?
+What does the available evidence suggest is actually happening?
+What signals feel important but haven't been named?
+What tensions or contradictions exist in the current situation?
 ```
 
-### Step 2: Probe the Model
+### Step 3: Find the Unseen Thing
+
+The Perceive phase delivers one critical output: **the insight that changes the direction**.
+
+This is usually the thing that was obvious once named, but hadn't been said yet.
 
 ```
-1. What model are we using? What version?
-2. What's new in this version vs what we had 30 days ago?
-3. What can this model do that previous versions couldn't?
-4. What would this model do if we asked it differently?
-5. What's a capability we've assumed it doesn't have?
-```
+# Perceive Output
 
-### Step 3: Monitor the Environment
+## The People
+[Who they are and what they're experiencing]
 
-```
-1. What changed in the client's world since last sprint?
-2. What's shifted in the market / competitive landscape?
-3. What did we learn from the last sprint's Progress phase?
-4. Are there signals we've been ignoring?
-```
+## The Brief
+[What the challenge says]
 
-### Step 4: Surface the Unseen
+## The Actual Situation
+[What's really going on — often different from the brief]
 
-The Perceive phase delivers one critical output: **the thing no one has said yet.**
-
-Format:
-```
-# Perceive Output — [Date]
-
-## Problem Statement
-[What the client described]
-
-## Actual Problem  
-[What's really going on — often different]
-
-## Model Capabilities Update
-[What the current model can do that we may not be using]
-
-## Environmental Signals
-[Any shifts since last sprint worth noting]
+## Emerging Signals
+[Patterns or shifts worth designing for]
 
 ## The Unseen Thing
-[The one insight that changes the direction — stated plainly]
+[The one insight that changes how we approach this]
+
+## What this means for design
+[How does this reframe the challenge?]
 ```
 
-## Running Perceive Efficiently
+### Step 4: Check the Portfolio
 
-**Time-box to 2 hours max** for a sprint-start perceive. You're not writing a thesis — you're finding the signal.
+After Perceive, check: are we maintaining options? Perceive often reveals that the problem has multiple dimensions — each of which could become a Portfolio path.
 
-**Tools to use:**
-- `web_search` / `perplexity` — for market/context research
-- `web_fetch` — for deep-diving specific sources
-- `memory_search` — for client history and past decisions
-- `exec` — for running scraping/monitoring scripts
+```
+What dimensions of this problem are worth designing for separately?
+Are we about to narrow too early?
+```
 
-**Parallelize:** If you need both client context and model capability research, run them simultaneously with sub-agents.
+## When to Return to Perceive
 
-## Human Handshake
+Perceive is not a one-time phase. Return here when:
 
-- AI contribution: broad scanning, weak-signal detection, contradiction finding, pattern synthesis
-- Human contribution: tacit context, stakes, politics, values, what "actually matters" here
-- Shared question: `What are we not seeing yet, and whose judgment helps us see it?`
+- Execution (Perform) reveals the design isn't resonating with the people
+- Portfolio review shows the options don't actually address the real need
+- New information changes your understanding of who the people are
+- The team is building something technically correct but humanly wrong
 
-## Portability
+## Practice Maturity (ACP)
 
-Works with any agent that has:
-- Web access (search, fetch)
-- File system access (memory, context)
-- Sub-agent capability for parallel work
+Track your Perceive practice in `~/.pstack/memory/acp-levels.md`:
 
-No client-specific knowledge required — the Perceive phase learns the client fresh each sprint.
+| Level | Signal |
+|-------|--------|
+| 1 | You can name the stakeholders when prompted |
+| 2 | You naturally ask "who are the people?" before scoping |
+| 3 | You notice when a brief is missing the human dimension |
+| 4 | Your Perceive consistently surfaces the problem behind the problem |
+| 5 | Perceive produces insights that genuinely redirect the design |

@@ -1,54 +1,77 @@
-# pstack
+# pstack — Rotman Course Edition
 
-The 5Ps AI Exponential Framework as a portable skill stack — Perceive, Perform, Portfolio, Pause-Promote, Progress, with Prune, Artisan, and Observer as cross-cutting roles. Load the skill for the phase you're in.
+The 5Ps of Loop Design as an AI co-intelligence skill stack for Rotman School business design courses.
 
-Works across Claude Code and Codex CLI. Future agents pluggable via [docs/CROSS-AGENT-INSTALL.md](docs/CROSS-AGENT-INSTALL.md).
+**Perceive · Perform · Portfolio · Pause/Promote · Progress**
+
+Built on the Helix model from *[your book]*: strategy and design are not separate phases — they are intertwined strands that spiral together, with AI inside the loop at every phase.
 
 ## Install
 
-| Agent | Install | Activation |
-|---|---|---|
-| Claude Code | `git clone https://github.com/suhitanantula/pstack.git ~/.claude/skills/pstack && bash ~/.claude/skills/pstack/setup` | `/pstack`, `/pstack-perceive`, etc. |
-| Codex CLI | Clone repo → `/plugins` → Search "pstack" → Install | `$pstack`, `$pstack-perceive`, etc. |
+```bash
+git clone https://github.com/suhitanantula/pstack.git ~/.claude/skills/pstack
+bash ~/.claude/skills/pstack/setup
+```
 
-After install, skills are available immediately in any session. Run `/pstack` (or `$pstack`) for the framework overview, or jump to a phase skill.
+After install, skills are available immediately in any Claude Code session.
 
-## The 5Ps
+## The 5Ps of Loop Design
 
-1. **Perceive** — strategic sensing
-2. **Perform** — move with intention; performance architecture
-3. **Portfolio** — anti-fragile portfolio design
-4. **Pause-Promote** — choose what matters; filtering architecture and discernment
-5. **Progress** — build learning systems
-6. **Prune** — scope discipline across the loop
-7. **Artisan** — quality and design layer
-8. **Observer** — meta-awareness across runs
+| P | Tagline | Rhythm | Role in the loop |
+|---|---------|--------|-----------------|
+| **Perceive** | Never Forget the People | 〰 Cultural sensing | Read unspoken needs and emerging patterns |
+| **Perform** | Move with Intention | ▲ Intentional execution | Convert insights into concrete, testable action |
+| **Portfolio** | Designing for Anti-Fragility | ● Adaptive resilience | Maintain multiple pathways forward |
+| **Pause/Promote** | Choose What Matters | ●〰 Strategic judgment | Filter through both logic and emotional resonance |
+| **Progress** | Build Learning Systems | ▲● Systematic learning | Convert experience into evolutionary capability |
 
-The 5Ps are not a ladder. They are a rhythmic loop.
-The point is not perfect planning. The point is better movement.
+The 5Ps are a **loop, not a ladder.** Returning to an earlier P is how the system gets smarter.
 
-Invoke each P as a skill. Skip phases only when genuinely trivial. Never skip Perceive on new work.
+## How to Use
+
+Load the skill for the phase you're in:
+
+```
+/pstack              — overview and loop guidance
+/pstack-perceive     — sense the people and the problem
+/pstack-perform      — prototype and act with intention
+/pstack-portfolio    — map your options and keep them alive
+/pstack-decide       — choose what matters, say what you're not doing
+/pstack-progress     — build the learning system, feed the next loop
+```
+
+## Co-Intelligence Principle
+
+Each P is a zone of collaboration between human and machine intelligence:
+
+- **Humans bring:** contextual wisdom, lived experience, values, judgment, and tacit knowledge
+- **AI brings:** pattern recognition, rapid variation, analytical synthesis, and accelerated creation
+- **Together they create:** something neither could produce alone
+
+The co-intelligence question at every phase: *Whose judgment improves this P right now?*
+
+## Starter Paths
+
+Not sure where to enter? See [docs/STARTER-PATHS.md](docs/STARTER-PATHS.md) for five ready-to-run entry points:
+
+1. **New Venture / Design Challenge** — fuzzy brief to designed solution (full loop)
+2. **Customer Empathy Sprint** — understand before building (Perceive-heavy)
+3. **Strategic Options Review** — have directions, need to choose
+4. **Rapid Prototype Session** — prove an idea works fast (Perform-heavy)
+5. **End-of-Project Debrief** — capture what the team learned (Progress)
 
 ## Update
 
-- Claude Code: `/pstack-upgrade` (auto-detects git remote and pulls)
-- Codex CLI: reinstall the plugin when a new version is announced
+```bash
+# In Claude Code:
+/pstack-upgrade
+```
 
-## Rationale
+## Course Context
 
-See [docs/CROSS-AGENT-INSTALL.md](docs/CROSS-AGENT-INSTALL.md) for why pstack is cross-agent and how the pattern extends to other AI CLIs.
+This edition supports the Rotman School business design curriculum. The Helix model, LLV rhythmic framework, and EEE Layer (Ethical, Emotional, Emergent) are described in the accompanying course materials.
 
-See [docs/PSTACK-OMX-OPERATING-MODEL.md](docs/PSTACK-OMX-OPERATING-MODEL.md) for the recommended split between `pstack` as the strategic layer and `OMX` as the execution layer.
-
-See [docs/PSTACK-COINTELLIGENCE.md](docs/PSTACK-COINTELLIGENCE.md) for the loop semantics, human entry points, and agent guidance that make `PSTAC` a co-intelligence system rather than a linear workflow.
-
-See [docs/PSTACK-CODEX-INTEGRATION.md](docs/PSTACK-CODEX-INTEGRATION.md) for notes on bringing the stronger NanoClaw-style 5Ps approach deeper into Codex and `pstack`.
-
-See [docs/PSTACK-CLOUDFLARE-PORTFOLIO.md](docs/PSTACK-CLOUDFLARE-PORTFOLIO.md) for the current Cloudflare opportunity map across PSTACK, Helix Lab, Ethnobot, Fuse, and client work.
-
-See [docs/PSTACK-FUSE-OPTIONS.md](docs/PSTACK-FUSE-OPTIONS.md) for the current Fuse option map after building the first Cloudflare-native PSTACK runtime.
-
-Artifact templates for the `Strategic Brief`, `Execution Plan`, and `Execution Evidence Pack` live under [docs/templates](docs/templates).
+See [docs/COURSE-GUIDE.md](docs/COURSE-GUIDE.md) for faculty and TA notes.
 
 ## License
 

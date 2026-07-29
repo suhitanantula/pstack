@@ -1,151 +1,136 @@
 ---
 name: pstack-perform
 description: >-
-  Perform phase of the 5Ps AI Exponential Framework. The Performance Agent
-  moves with intention and builds performance architecture. Use when
-  translating insight into systematic action. Triggered by: "build",
-  "perform", "ship", "code this", "implement", "move with intention",
-  "performance architecture", "the Perform phase".
+  Perform phase of the 5Ps of Loop Design. Move with Intention.
+  Intentional execution — converting insights into concrete, testable action.
+  Use when translating insight into a prototype, concept, or tangible expression.
+  Triggered by: "perform", "prototype this", "make it real", "test this idea",
+  "move with intention", "what's the smallest thing", "Perform phase".
 ---
 
-> **Rhythm:** ▲ Lines | **Tempo:** 80Hz (focused execution) | **Cognitive Mode:** Convergent, precise
+> **Rhythm:** ▲ Intentional execution | **Mode:** Convergent, creative | **Human role:** Set ethical direction, make judgment calls, test with real people
 
-# pstack-perform — Performance Agent
+# pstack-perform — Move with Intention
 
-The Perform phase is not a development project. It's **performance architecture** — systematic action where human intention meets machine-speed execution.
+> *This is where we transform ideas into tangible expressions. Humans provide ethical direction and purpose, while AI accelerates creation and simulation. Together, they create focused momentum that converts strategic intent into concrete moves.*
+> — Chapter 15, 5Ps of Loop Design
 
-## The Role
+## The Role of Perform
 
-You are the Performance Agent. Your job is to:
-1. **Move with intention** — convert insight into action without losing human purpose
-2. **Execute at speed** — use machine leverage without surrendering strategic boundaries
-3. **Integrate** — connect the pieces into a real system, not an isolated demo
-4. **Document** — what was built, what it proves, and what it should trigger next
+Perform is **intentional execution** — the act of converting insight into something real, testable, and visible. Not a final product. Not a polished presentation. A **tangible expression** that can be put in front of a person and learned from.
 
-## The Perform Mindset
+**Key principle:** If in doubt, prototype.
 
-**Default stance: intentional execution.**
-Speed matters, but only when it is aligned with strategic intent. Perform is where clarity meets action.
+The moment you're uncertain which direction is right, the answer is not more analysis. The answer is to make something and test it. A rough prototype in someone's hands teaches more than a week of planning.
 
-**Key assumption:** Something will replace everything you build. Design for replacement — don't over-engineer.
+## Human + AI in this Phase
 
-**Key question:** "What is the smallest thing that proves this works?"
+| Who | What they bring |
+|-----|----------------|
+| **Human** | Ethical direction, purpose, values boundaries, judgment about what "good enough" means |
+| **AI** | Accelerates creation, builds variations, simulates scenarios, generates options quickly |
+| **Together** | ▲ Focused momentum — strategic intent becomes concrete moves |
 
-Perform is not "defend the current plan at all costs."
-It is where reality gets a vote. If execution weakens the current bet, loop back upward.
+The co-intelligence question for Perform: *What is the smallest thing we can make that would tell us whether this idea works?*
+
+## What "Prototype" Means in Business Design
+
+In a business design context, a prototype is not necessarily software. It can be:
+
+- A **service blueprint** — a visual map of how a service would work
+- A **concept scenario** — a narrative walk-through of a customer experience
+- A **mock-up or storyboard** — a visual representation of the design
+- A **role-play or simulation** — acting out how the interaction would feel
+- A **one-page business model** — the simplest expression of the value proposition
+- A **landing page or pitch** — testing whether the offer resonates before building
+
+The test: *Can you put this in front of a person and learn something?* If yes, it's a prototype.
 
 ## The Core Rule
 
-> **Ship it. Fix it. Ship it again.**
+> **If in doubt, prototype. If you can't prototype it, it's not ready.**
 
-The build-test-learn cycle is faster than the plan-build-test cycle. But in the book's sense, this is not just shipping code. It is building systems that execute strategic intent at scale.
-
-This is not cautious prototyping.
-This is performance at scale, where strategic intention is translated into repeatable execution.
-
-Short example:
-- a human defines the strategic boundaries, values, and success conditions
-- the machine executes many tactical moves inside those boundaries
-- the result is not mere automation; it is scaled strategic intent
-
-Book cue:
-- not "whether to act"
-- but "how to act with strategic precision at machine speed"
-
-## When to Run
-
-- After Decide has chosen a path
-- After Prune has confirmed the scope is right
-- When you have a clear brief from Portfolio (what to build, what assumption to test)
-- When a recommendation is strong enough to test in reality, even if the broader portfolio still exists
+This is the operational shift from traditional strategy. Instead of presenting options as documents, you present them as **working artifacts**. The decision is made on what works — not on what was described.
 
 ## The Perform Protocol
 
-### Step 1: Define Done
+### Step 1: Define Done (Before You Start)
 
 ```
-Minimum viable output: [the thing that proves it works — no more than this today]
-Stretch goal: [what you'd add if everything went perfectly]
-Time budget: [1 day / 2 days / end of sprint]
-Definition of done: [what "it works" actually means — testable, not feels-like]
+What insight from Perceive are we acting on?
+What assumption are we testing?
+What is the smallest artifact that tests this assumption?
+What does "it works" actually mean? (make it testable, not feel-like)
+How will we know if it didn't work?
 ```
 
-### Step 2: Build the Minimum First
+### Step 2: Build the Minimum Expression First
 
-Start with the core loop — the thing that proves the concept. No features. No polish. No error handling worth speaking of. Just: does the key assumption hold?
-
-```
-Day 1:
-├── Core logic working
-├── Happy path end-to-end
-└── One real test case
-
-Day 2:
-├── Fix what broke in Day 1 testing
-├── Handle the obvious edge cases
-└── Basic error states
-```
-
-### Step 3: Integrate
-
-Building in isolation is the most expensive mistake in software development. The Build Agent's job is to make the thing work *with* the rest of the system, not just work in isolation.
+Start with the core — the thing that proves the concept. No polish. No edge cases. Just: does the key idea land?
 
 ```
-Checklist:
-□ Does it work with actual data (not mock data)?
-□ Does it integrate with existing systems?
-□ Does the output format match what the next phase expects?
-□ Is there a clear API / interface for the next agent to use?
+First expression:
+  What is the single thing this prototype must show?
+  Who will we show it to?
+  What will we watch for?
+
+Second pass (only if needed):
+  What did the first expression teach us?
+  What needs to change before we can learn more?
 ```
 
-### Step 4: Document for Handoff
+### Step 3: Test with a Person
 
-The Build Agent ships to Progress. Document:
+A prototype untested is a guess. Put it in front of one real person — a peer, a potential user, a stakeholder — and watch what happens.
+
 ```
-# Build Output — [Date]
-
-## What was built
-[One paragraph: what it does]
-
-## What it replaced / what assumption it tests
-[The link back to the Portfolio/Decide phase]
-
-## How it works
-[The simplest description of the architecture]
-
-## How to test it
-[Step by step — someone else should be able to verify it works]
-
-## Known limitations
-[What it doesn't do — be honest]
-
-## What would you do differently
-[Self-critique for the Learn Agent]
+What surprised you?
+What did they focus on that you didn't expect?
+What did they ignore?
+What did they want to know more about?
 ```
 
-## The "Something Will Replace It" Mindset
+### Step 4: Document for the Portfolio
 
-This is not fatalism — it's a design principle. When you assume replacement:
-- You don't over-engineer edge cases
-- You document just enough for the next person (who might be future-you)
-- You build interfaces that make replacement possible, not integration that creates lock-in
-- You focus on the thing that matters most and leave the rest
+Perform feeds the Portfolio. Record:
 
-## The Observer Hook
+```
+# Perform Output
 
-The Build Agent's self-critique feeds directly to Observer. Every build teaches the Pod something about itself.
+## What we made
+[One sentence: what it is and what it does]
 
-## Human Handshake
+## What assumption it tests
+[The link back to Perceive — what insight drove this]
 
-- AI contribution: execution speed, simulation, implementation, systematic verification support
-- Human contribution: values boundaries, trust calls, irreversible choices, interpretation of what "good enough" means
-- Shared question: `What should be tested in reality now, and where does human judgment need to stay active during execution?`
+## What we learned from testing it
+[What happened when a person encountered it]
 
-## Portability
+## What this means for the Portfolio
+[Does this strengthen an option, weaken one, or reveal a new path?]
 
-Works with any agent that can:
-- Write code / execute scripts / call APIs
-- Work with files and file systems
-- Time-box and prioritize
+## What we would do differently
+[Honest self-critique — feeds Progress]
+```
 
-Build Agents can work in parallel on different parts of the same sprint. Coordinate via shared files.
+## When to Return from Perform
+
+Perform is not a one-way commitment. Return to an earlier P when:
+
+- Testing reveals the core assumption was wrong → return to **Perceive**
+- The prototype reveals a better adjacent option → update the **Portfolio**
+- The team can't agree on what "done" means → return to **Pause/Promote**
+
+Reality gets a vote. If execution is weakening the original bet, loop back rather than continuing.
+
+## Practice Maturity (ACP)
+
+Track your Perform practice in `~/.pstack/memory/acp-levels.md`:
+
+| Level | Signal |
+|-------|--------|
+| 1 | You build a prototype when asked |
+| 2 | You naturally reach for a prototype before analysis when uncertain |
+| 3 | Your prototypes are testable (not just presentable) |
+| 4 | You define "done" before you start, and you stop when you've learned enough |
+| 5 | Perform consistently produces insights that redirect the Portfolio |

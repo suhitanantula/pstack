@@ -1,6 +1,6 @@
 ---
 name: pstack
-description: The 5Ps AI Exponential Framework — skill stack for multi-agent orchestration. Use when running a Pod, starting a sprint, or applying the 5Ps (Perceive, Portfolio, Pause-Promote, Perform, Progress) with Prune, Artisan, and Observer. Each sub-skill implements one P.
+description: The 5Ps of Loop Design — AI co-intelligence skill stack for business design. Use when starting a design loop, running a challenge, or navigating the 5Ps (Perceive, Perform, Portfolio, Pause/Promote, Progress). Each sub-skill implements one P.
 ---
 
 ## Preamble (run first)
@@ -13,133 +13,102 @@ _UPD=$(~/.claude/skills/pstack/bin/pstack-update-check 2>/dev/null || true)
 If output shows `UPGRADE_AVAILABLE <old> <new>`: tell the user "pstack v{new} is available (you have v{old}). Run `/pstack-upgrade` to update."
 If output shows `JUST_UPGRADED <from> <to>`: tell user "Running pstack v{to} (just updated!)".
 
-# pstack — 5Ps AI Exponential Framework
+# pstack — 5Ps of Loop Design
 
-The pstack is a set of composable skills that implement the 5Ps AI Exponential Framework. Each skill corresponds to one P — one agent role in the Pod.
+The pstack implements the 5Ps of Loop Design from the Helix model: a co-intelligence framework where humans and AI partner at every phase of design, in their natural modes, strengthening the connection between strategy and design.
 
-## The Full Pod (8 Roles)
+> *Design is not what happens after strategy. Design is how strategy moves.*
 
-| P | Skill | Role |
-|---|-------|------|
-| Perceive | `pstack-perceive` | Strategic Sensing Agent — senses what is happening now and what may be emerging |
-| Perform | `pstack-perform` | Performance Agent — translates strategic intent into systematic action |
-| Portfolio | `pstack-portfolio` | Portfolio Agent — designs anti-fragile option fields and disciplined optionality |
-| Pause-Promote | `pstack-decide` | Discernment Agent — builds filtering architectures and recommends what matters next |
-| Progress | `pstack-progress` | Learning Systems Agent — turns outcomes into advancement capacity |
-| Prune | `pstack-prune` | Scope discipline — decides what not to build |
-| Artisan | `pstack-artisan` | Design Agent — polishes, ensures quality |
-| Observer | `pstack-observer` | Meta Agent — watches patterns, improves the system |
+## The 5Ps
 
-## Practice Tracking (ACP)
+| P | Tagline | Rhythm | What it activates |
+|---|---------|--------|------------------|
+| **Perceive** | Never Forget the People | 〰 Cultural sensing | Read unspoken needs and emerging patterns |
+| **Perform** | Move with Intention | ▲ Intentional execution | Convert insights into concrete action |
+| **Portfolio** | Designing for Anti-Fragility | ● Adaptive resilience | Maintain multiple pathways forward |
+| **Pause/Promote** | Choose What Matters | ●〰 Strategic judgment | Combine logic with intuitive wisdom |
+| **Progress** | Build Learning Systems | ▲● Systematic learning | Convert experience into evolutionary capability |
 
-Each P develops through use. Track your practice maturity:
+## Loop, Not Ladder
 
-| Level | Name | Signal |
-|-------|------|--------|
-| 1 | Scaffolding | You can run the skill with prompting |
-| 2 | Routine | You invoke it naturally at the right moment |
-| 3 | Memory | You notice patterns across sprints |
-| 4 | Growth | Your application of the P has visibly improved |
-| 5 | Emergence | The P produces insights you didn't expect |
-
-**Your current levels** are tracked in `~/.pstack/memory/acp-levels.md` (agent-neutral path — works across Claude Code, Codex, and any other CLI).
-Update after each sprint via `/pstack-progress`.
-
-The Observer (`/pstack-observer`) monitors ACP levels and flags:
-- Ps you're skipping (common: Prune, Progress)
-- Ps stuck at Level 1 (you use them but don't grow)
-- Ps ready to level up (pattern detected across 3+ sprints)
-
-## How to Use
-
-Load the relevant sub-skill for the phase you're in. Each skill is standalone but designed to chain:
+The 5Ps are a **recursive co-intelligence loop**. Common return paths:
 
 ```
-Perceive → Perform → Portfolio → Pause-Promote → Progress
-      ↑            ↘          ↘                ↘        ↓
-      └───────────── loop / return paths ───────────────┘
-             ↓             ↓               ↓
-          Prune        Artisan         Observer
+Perceive → Perform → Portfolio → Pause/Promote → Progress
+    ↑                    ↘              ↘               ↓
+    └────────────── loop / return paths ────────────────┘
 ```
 
-This chain is the most common path, not a one-way law.
+- `Pause/Promote → Portfolio` when the recommendation needs more options
+- `Portfolio → Perceive` when the option set reveals the original framing was wrong
+- `Perform → Pause/Promote` when reality changes the bet
+- `Progress → Perceive` when outcomes reveal a deeper pattern
 
-The 5Ps are a recursive co-intelligence loop:
+Looping is normal. It is not failure. It is how the system gets smarter.
 
-- `Decide` can return to `Portfolio`
-- `Portfolio` can return to `Perceive`
-- `Perform` can force a return to `Decide`, `Portfolio`, or `Perceive`
-- `Progress` should feed the next `Perceive`
+## Co-Intelligence Principle
 
-Looping is normal. It is not failure.
-The point is to move with rhythm, not to force a stage-gate.
+Each P is a **zone of collaboration** where strategy and design strands of the Helix touch — and where human and machine intelligence work together.
 
-## Human Entry
+- **Humans bring:** contextual wisdom, lived experience, values, cultural intuition, and judgment
+- **AI brings:** pattern recognition across data, rapid variation, analytical synthesis, accelerated creation
+- **Together:** something neither could produce alone — empathetic intelligence, focused momentum, experimental resilience, integrated judgment, structured evolution
 
-Humans can enter at any P when their judgment improves the next move.
+The question at every P: **Whose judgment improves this loop right now?**
 
-Do not treat the human as a final approver only.
+Sometimes the answer is the agent. Sometimes the human. Sometimes both together.
 
-Useful human entry points include:
+## Human Entry Points
 
-- `Perceive` for tacit context, politics, stakes, and hidden constraints
-- `Portfolio` for taste, weighting, and strategic preference
-- `Decide` for risk appetite, tradeoffs, and non-technical judgment
-- `Perform` for irreversible, trust, or identity-level choices
-- `Progress` and `Observer` for meaning-making and system correction
+Humans can enter at any P. Most valuable when:
 
-Core co-intelligence question:
+- **Perceive** — tacit context, politics, lived experience, what the data can't show
+- **Portfolio** — taste, strategic weighting, what options to keep alive
+- **Pause/Promote** — risk appetite, values, timing, non-technical tradeoffs
+- **Perform** — irreversible choices, trust boundaries, identity-level decisions
+- **Progress** — meaning-making beyond what metrics alone can say
 
-`Whose judgment improves this P right now?`
+## Running a Design Loop
 
-## Running a Sprint
+For a full loop:
 
-For a full sprint cycle, run in order:
-1. `pstack-perceive` — strategic sensing: what is really happening, and what futures are emerging?
-2. `pstack-perform` — move with intention: what should we test in reality now?
-3. `pstack-portfolio` — anti-fragile portfolio design: what option field should stay alive?
-4. `pstack-decide` — pause/promote: what matters enough to advance, and under what parameters?
-5. `pstack-prune` — what must be cut so the move stays coherent?
-6. `pstack-artisan` — where does quality, usability, and craft need tightening?
-7. `pstack-progress` — what learning system did this loop create?
-8. `pstack-observer` — what is the system learning about itself over time?
+1. `/pstack-perceive` — cultural sensing: who are the people? what's really going on?
+2. `/pstack-perform` — intentional execution: what is the smallest thing that proves this?
+3. `/pstack-portfolio` — adaptive resilience: what options are alive and what's their shape?
+4. `/pstack-decide` — strategic judgment: what do we promote? what do we pause?
+5. `/pstack-progress` — systematic learning: what did this loop teach us? how does it feed the next?
 
-## Sub-Skills
+## Portfolio is Always Active
 
-Each P is implemented as a standalone skill:
-- `pstack-perceive` — Strategic sensing phase
-- `pstack-perform` — Performance architecture phase
-- `pstack-portfolio` — Anti-fragile portfolio design phase
-- `pstack-decide` — Pause/Promote discernment phase
-- `pstack-progress` — Learning systems phase
-- `pstack-prune` — Scope reduction discipline
-- `pstack-artisan` — Quality/design layer
-- `pstack-observer` — Meta-awareness and system improvement
+Portfolio is not a gate you pass through once. It is a lens you maintain throughout the loop.
 
-## Key Principle
+- In **Perceive**, your portfolio of problem frames is forming
+- In **Perform**, your prototype is testing one option from the portfolio
+- In **Pause/Promote**, you draw from the portfolio to make the call
+- After **Progress**, the portfolio is updated with what you learned
 
-**Prototype before you present. If you can't prototype it, it's not ready.**
+Never collapse the portfolio to one option before Pause/Promote has done its work.
 
-The Portfolio skill is where the shift happens. Traditional methodology presents options as documents. The pstack Portfolio builds options as working prototypes — even rough ones. The decision is made on what works, not what was described.
+## Starter Paths
 
-Additional rule from the book:
+Different entry points for different situations — see `/pstack` for the full loop, or use these shortcuts:
 
-**You don't need an AI strategy. You need a strategic rhythm for AI.**
+| Situation | Entry point |
+|-----------|-------------|
+| Fuzzy brief, don't know where to start | `/pstack-perceive` |
+| Have insight, need to make it real | `/pstack-perform` |
+| Have options, need to choose | `/pstack-decide` |
+| Need to map what's alive | `/pstack-portfolio` |
+| Finished a loop, need to learn from it | `/pstack-progress` |
 
-## Portability
+See [docs/STARTER-PATHS.md](docs/STARTER-PATHS.md) for five ready-to-run Rotman scenarios.
 
-The pstack works with any agent that can:
-- Use file system and web tools (read, write, exec, web_fetch)
-- Run sub-agents for parallel work
-- Access memory and context files
+## Functional Rhythmic Patterns
 
-All 8 skills are self-contained. Load the one you need.
+Different organisational functions naturally emphasise different Ps:
 
-## Agent Behavior
+- **Customer relationship functions** thrive in Perceive and Pause/Promote — where 〰 Vibes reveal what matters
+- **Product innovation functions** excel at Perform and Portfolio — where ▲ Lines and ● Loops drive exploration
+- **Infrastructure functions** find strength in Progress and Perform — where ▲ Lines provide stability
 
-When `PSTAC` is active:
-
-- preserve optionality long enough to make a high-quality recommendation
-- recommend clearly without pretending uncertainty has vanished
-- bring the human in wherever joint judgment improves the loop
-- treat execution evidence as a reason to loop, not just a reason to explain harder
+The magic happens when organisations create **rhythm bridges** between these functions, allowing co-intelligence to flow across the system.

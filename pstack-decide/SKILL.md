@@ -1,149 +1,146 @@
 ---
 name: pstack-decide
 description: >-
-  Pause-Promote phase of the 5Ps AI Exponential Framework. The Discernment
-  Agent designs filtering architecture and recommends the next bet. Use when a
-  decision is needed. Triggered by: "decide", "pause-promote", "kill this",
-  "which path", "what matters", "filter this", "make the call", "prioritise".
+  Pause/Promote phase of the 5Ps of Loop Design. Choose What Matters.
+  Strategic judgment — combining analytical insight with intuitive wisdom.
+  Use when a consequential choice is needed from a set of live options.
+  Triggered by: "pause", "promote", "decide", "choose", "what matters",
+  "which path", "filter this", "make the call", "Pause/Promote phase".
 ---
 
-> **Rhythm:** ●〰 Loops+Vibes | **Tempo:** 40Hz (deliberate judgment) | **Cognitive Mode:** Evaluative, strategic
+> **Rhythm:** ●〰 Strategic judgment | **Mode:** Evaluative, integrative | **Human role:** Values-based judgment, cultural intuition, risk appetite
 
-# pstack-decide — Discernment Agent
+# pstack-decide — Choose What Matters
 
-The Pause-Promote phase is not a strategy document. It's **filtering architecture** — the designed discernment layer that determines what matters enough to advance.
+> *This is where we make consequential choices. Humans provide values-based judgment and cultural intuition, while AI offers analytical insight and pattern detection. Together, they create integrated intelligence that filters options through both strategic logic and emotional resonance.*
+> — Chapter 15, 5Ps of Loop Design
 
-## The Role
+## The Role of Pause/Promote
 
-You are the Discernment Agent. Your job is to:
-1. **Pause and Promote** — recommend the next bet, don't just describe the options
-2. **Kill** — explicitly rule out options, don't leave them in limbo
-3. **Prioritise** — rank what's next when multiple things are fighting for attention
-4. **Log reasoning** — every decision is a bet with stated assumptions; capture them
+Pause/Promote is **strategic judgment** — the act of choosing what to advance and what to let rest, with enough clarity to act and enough honesty to revisit.
 
-## The Pause-Promote Mindset
+It is not a final verdict. It is a **bet with stated parameters**: this is the direction we're backing, under these conditions, and if those conditions change, here's what we'd revisit.
 
-**Default stance: decisive, not premature.**
-Your job is not to present both sides forever. Your job is to recommend the best next move you can with available information and say why.
+**Key principle:** Choose What Matters.
 
-**Key question:** "What are we NOT doing?" — The kill list is more important than the shortlist.
+Not what's most interesting. Not what's most complete. What matters most *now*, given what we know.
+
+The shift this P represents: from making decisions at periodic milestone events to developing **continuous discernment** — the capacity to know when to advance and when to pause, as a practiced skill.
+
+## Human + AI in this Phase
+
+| Who | What they bring |
+|-----|----------------|
+| **Human** | Values-based judgment, cultural intuition, risk appetite, timing sense, what resonates |
+| **AI** | Analytical insight, pattern detection, tradeoff mapping, assumption surfacing |
+| **Together** | ●〰 Integrated intelligence — filtering through both strategic logic and emotional resonance |
+
+The co-intelligence question for Pause/Promote: *Given what we know and what we value, what deserves to move forward — and what are we saying "not yet" to?*
+
+## Two Filters, Not One
+
+Most decisions get made through one filter: the analytical one. "Which option has the strongest evidence?"
+
+Pause/Promote uses both:
+
+**Analytical filter:** What does the evidence say?
+```
+Which option has the most supporting signals?
+Which assumption is most tested?
+Which direction reduces the most uncertainty?
+```
+
+**Resonance filter:** What does the judgment say?
+```
+Which option feels most aligned with what we're actually trying to do?
+Which direction serves the people we saw in Perceive?
+Which choice reflects our values as a team?
+```
+
+Good decisions pass both filters. When they diverge, that tension is worth naming — not resolving too quickly.
 
 ## The Core Rule
 
-> **A decision is a bet, not a commitment.**
+> **A choice is a bet, not a commitment.**
 
-Strategy that can't be reversed isn't strategy — it's dogma. Make the call, track what happens, update.
+State what you're backing. State why. State what would make you change your mind. Then act.
 
-Pause-Promote does not require pretending that only one option exists.
-It means: given this portfolio, under these parameters, recommend the next bet and preserve enough of the option field to revisit if reality changes.
+This is not permission to be indecisive. It is permission to be honest about uncertainty while still choosing.
 
-In the book's framing, the real shift is from periodic decision events to continuous discernment systems.
+## The Pause/Promote Protocol
 
-Short example:
-- AI can screen thousands of options or signals
-- humans still decide what counts as meaningful, ethical, or culturally coherent
-- together they build smarter filters, not just faster choices
+### Step 1: Frame the Choice
 
-This is the move from:
-- generate options -> evaluate -> decide -> implement
-
-to:
-- design filters -> deploy -> learn -> refine -> scale
-
-## When to Run
-
-- After Portfolio has prototypes ready
-- When the team/pod/client is stuck in ambiguity
-- When priority is unclear and everything feels equally important
-- After Progress reports new information that changes the calculus
-
-## The Decide Protocol
-
-### Step 1: Frame the Decision
+Before evaluating options, name what you're actually deciding.
 
 ```
-What exactly is the decision? (Be specific — not "our AI strategy" but "what next bet do we recommend from this portfolio?")
-What's the deadline?
-Who's accountable for making it?
-What happens if we don't decide?
+What exactly is the choice? (specific, not vague)
+What's the consequence of not choosing?
+Who needs to be part of this decision?
+By when does this need to be resolved?
 ```
 
-### Step 2: Evaluate Options
+### Step 2: Evaluate from the Portfolio
 
-For each option under consideration:
+Draw from your Portfolio of live options. For each one:
 
 ```
 Option: [name]
-Confidence: [high / medium / low]
-Key assumption: [what has to be true for this to work]
-Kill condition: [what fact, if true, would make us regret this choice]
-Risk: [what bad thing could happen]
-Risk severity: [high / medium / low]
+Analytical read: [what the evidence suggests]
+Resonance read: [how it feels relative to what matters]
+Core assumption: [what has to be true for this to be right]
+If we're wrong: [what would we learn, and what would we do next]
 ```
 
 ### Step 3: Make the Call
 
-State the decision clearly:
-```
-RECOMMENDATION: [What should happen next]
-PARAMETERS: [why this recommendation is right now]
-BET: [What we're wagering on — the key assumption]
-KEEP ALIVE: [which adjacent options remain worth preserving]
-KILL LIST: [What's explicitly ruled out and why]
-TIMELINE: [When we'll know if the bet paid off]
-REVIEW POINT: [When we'll revisit if we were wrong]
-```
+State it clearly:
 
-### Step 4: Log for Progress
-
-Capture the decision in a format the Learn Agent can use later:
 ```
-# Decision Log — [Date]
+# Pause/Promote Decision — [Date]
 
-## [Decision Title]
-**Recommended next bet:** [Option]
-**Killed:** [Options ruled out]
-**Preserved options:** [Options worth revisiting if conditions change]
-**Key bet:** [Assumption we're making]
-**Will know by:** [Date / event that signals success or failure]
-**Actual outcome:** [TBD — fill in during Progress phase]
+## What we're promoting
+[What moves forward — stated plainly]
+
+## Why — the parameters
+[What makes this the right choice now — be specific]
+
+## What we're pausing
+[What we're setting aside — with honest reasoning]
+
+## What stays alive in the portfolio
+[Options worth keeping visible in case conditions change]
+
+## The bet
+[The core assumption we're making — what has to be true]
+
+## What would change this
+[The specific thing that, if we learned it, would cause us to revisit]
 ```
 
-## The Kill List Is the Product
+### Step 4: The "Not Doing" List is the Product
 
-Most strategy documents list what's in. The Decide phase's output is **explicitly what's out** — and why.
+State explicitly what you're *not* pursuing. Options left in permanent limbo drain the team's attention without providing clarity. Name what's paused and why.
 
 This matters because:
-1. It prevents "zombie options" that keep getting revived
-2. It makes the reasoning visible for later review
-3. It creates accountability — someone made the call and can be asked why
+- It makes reasoning visible and revisable
+- It prevents "zombie options" that keep getting revived
+- It creates the conditions for a clean next loop
 
-## Human Handshake
+## When Pause/Promote Should Return to an Earlier P
 
-- AI contribution: option comparison, parameter analysis, pattern recognition across tradeoffs
-- Human contribution: judgment, risk appetite, values, timing, contextual weighting
-- Shared question: `Given this portfolio, what is the best next bet now, and what should stay alive in reserve?`
+- If no option in the portfolio feels promotable → return to **Portfolio** to generate more
+- If the options feel right but something is still missing → return to **Perceive**
+- If the team can't agree on what matters → the disagreement is the data; surface it rather than overriding it
 
-## Dual-Track Awareness
+## Practice Maturity (ACP)
 
-The Decide phase holds two tracks simultaneously:
+Track your Pause/Promote practice in `~/.pstack/memory/acp-levels.md`:
 
-**Track A — Process:** Are we making decisions at the right pace? Too fast and we miss something; too slow and we lose momentum.
-
-**Track B — Substance:** Are we making the right decision given what we know? The Observer Agent will watch for when these tracks diverge.
-
-## The Prune Interaction
-
-Prune is the discipline that feeds Decide. Before making the call, ask:
-- "Is the scope of our chosen option too large?"
-- "What would we cut if we had to ship tomorrow?"
-- "Are we deciding on the right thing, or are we solving the wrong problem with a right answer?"
-
-## Portability
-
-Works with any agent or human that can:
-- Evaluate risk and confidence
-- Make a call and stand behind it
-- Log decisions with stated assumptions
-
-The Strategy Agent doesn't need to be the smartest person in the room. It needs to be the one who decides and logs why.
+| Level | Signal |
+|-------|--------|
+| 1 | You can state a choice when asked |
+| 2 | You naturally name both what you're advancing and what you're pausing |
+| 3 | You use both analytical and resonance filters without prompting |
+| 4 | Your decisions include clearly stated parameters and "what would change this" |
+| 5 | Pause/Promote produces clarity that others in the team describe as genuinely decisive and honest at the same time |
