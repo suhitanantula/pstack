@@ -61,6 +61,17 @@ This fork is a packaging and learning-design layer around canonical PStack:
 
 It should not casually fork the canonical method. Improvements to the five P skills that are generally valuable should return upstream.
 
+## Course profile (implementation)
+
+Packaged participant runtime lives at:
+
+[`profiles/ai-native-business-design/`](../../profiles/ai-native-business-design/README.md)
+
+- Method source + artefacts + starters  
+- Installable skills (`packs/skills/`) + zips (`packs/dist/`)  
+- Course facilitation + learn/pulse templates  
+- Version: see `profiles/ai-native-business-design/VERSION`
+
 ## Working documents
 
 - [`CURRENT-SYSTEM-MAP.md`](CURRENT-SYSTEM-MAP.md) — what exists, how it works and its present maturity.

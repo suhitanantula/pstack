@@ -1,0 +1,50 @@
+name: ai-native-business-design
+version: 2.0.0-course-draft
+display_name: "PStack — AI Native Business Design"
+status: exploratory
+institutional_boundary: "Does not imply Rotman approval, endorsement, or partnership."
+
+method:
+  steps:
+    - id: perceive
+      skill: pstack-perceive
+      tagline: Never Forget the People
+      artifact: situation-map
+    - id: perform
+      skill: pstack-perform
+      tagline: Move with Intention
+      artifact: live-move
+    - id: portfolio
+      skill: pstack-portfolio
+      tagline: Designing for Anti-Fragility
+      artifact: portfolio-of-plays
+    - id: pause
+      skill: pstack-decide
+      tagline: Choose What Matters
+      artifact: judgement-record
+    - id: progress
+      skill: pstack-progress
+      tagline: Build Learning Systems
+      artifact: next-loop-brief
+  cross_cutting:
+    - id: observer
+      skill: pstack-observer
+    - id: umbrella
+      skill: pstack
+
+surfaces:
+  - claude_desktop_skills
+  - chatgpt_skills
+  - markdown_project_pack
+  - custom_gpt
+  - claude_code_optional
+
+learn:
+  - practice_pulse
+  - artefact_submit
+  - thirty_day_followup
+
+upstream:
+  repo: suhitanantula/pstack
+  policy: profile-over-fork
+  promote_method_improvements: true
